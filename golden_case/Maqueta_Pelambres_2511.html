@@ -1,0 +1,66 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Golden case Pelambres 2511</title>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;background:#0f172a;color:#e5e7eb;margin:0;padding:30px}
+h1,h2{margin:0 0 14px} .sub{color:#94a3b8;margin-bottom:24px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px} .card{background:#111827;border:1px solid #334155;border-radius:14px;padding:20px}
+.badge{display:inline-block;background:#1e293b;border:1px solid #475569;border-radius:20px;padding:5px 10px;margin:3px}
+.arrow{font-size:30px;text-align:center;color:#38bdf8;margin:12px} table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{border-bottom:1px solid #334155;padding:9px;text-align:right} th:first-child,td:first-child{text-align:left}
+.ok{color:#86efac;font-weight:600} .warn{color:#fbbf24} .big{font-size:24px;font-weight:700;color:#7dd3fc}
+.code{font-family:Consolas,monospace;background:#020617;padding:3px 6px;border-radius:6px}
+.full{grid-column:1/-1} .pill{background:#064e3b;color:#a7f3d0;padding:4px 9px;border-radius:999px}
+</style></head><body>
+<h1>Armonización LT · Golden case Pelambres · 2511</h1>
+<div class="sub">Validado contra Resultado_Sistema_Experto_LT_Final_M_Fijo.xlsx y el ENS original de noviembre 2025.</div>
+<div class="grid">
+<div class="card">
+<h2>1. Contrato del Sistema Experto</h2>
+<p><span class="badge">Grupo 96790240_FAM_001</span><span class="badge">2 PC</span></p>
+<p>PC: <b>Los Piuquenes</b> y <b>Mauro</b></p>
+<p>M persistente:</p>
+<div class="big">BA S/E QUILLOTA 220KV BP1-1</div>
+<p><span class="code">BarraF M = QUILLOTA______220</span> · <span class="code">ID = 519</span></p>
+<p><span class="pill">VECTOR_COMPARTIDO</span></p>
+</div>
+<div class="card">
+<h2>2. Receta 2511</h2>
+<p>El grupo requiere dos fuentes:</p>
+<div><span class="badge">CENTELLA______220</span><span class="badge">QUILLOTA______220</span></div>
+<div class="arrow">↓ sumar por suministrador ↓</div>
+<p class="big">128.060,436980 MWh</p>
+<p>La energía se genera una sola vez bajo M. El mantenedor relaciona ambos PC con ese M.</p>
+</div>
+<div class="card full">
+<h2>3. Antes → después</h2>
+<table><thead><tr><th>Suministrador</th><th>Centella MWh</th><th>Quillota MWh</th><th>Salida bajo M MWh</th></tr></thead>
+<tbody><tr><td>AES Andes S.A.</td><td>20.449,516607</td><td>8.291,196068</td><td class='ok'>28.740,712675</td></tr>
+<tr><td>Alto Maipo SpA</td><td>46.913,596947</td><td>19.020,979308</td><td class='ok'>65.934,576255</td></tr>
+<tr><td>Parque Eólico El Arrayán SpA</td><td>3.137,102935</td><td>1.448,519238</td><td class='ok'>4.585,622173</td></tr>
+<tr><td>Conejo Solar SpA</td><td>11.128,030623</td><td>4.968,209031</td><td class='ok'>16.096,239654</td></tr>
+<tr><td>Javiera SpA</td><td>9.923,870004</td><td>2.779,416219</td><td class='ok'>12.703,286223</td></tr>
+<tr><th>TOTAL</th><th>91.552,117116</th><th>36.508,319864</th><th class="ok">128.060,436980</th></tr>
+</tbody></table>
+</div>
+<div class="card">
+<h2>4. Qué cambia en el ENS</h2>
+<ul>
+<li><b>BarraInfotecnica</b> → BA S/E QUILLOTA 220KV BP1-1</li>
+<li><b>BarraF</b> → QUILLOTA______220</li>
+<li><b>IdBarraInfotecnica</b> → 519</li>
+<li>10 filas origen → 5 filas destino por suministrador.</li>
+</ul>
+</div>
+<div class="card">
+<h2>5. Qué NO cambia</h2>
+<ul>
+<li>Mes 2511.</li><li>RUT/cliente.</li><li>Suministrador y RUT suministrador.</li>
+<li>Energía total por suministrador.</li><li>Los Vilos.</li><li>Quereo distribución.</li>
+</ul>
+</div>
+<div class="card full">
+<h2>6. Gate</h2>
+<p><b>Resultado experto:</b> <span class="pill">APTO_COMPOSICION=1</span> · M resuelto ·
+<span class="warn">RECETA_APTA_ENSAYO_MANTENEDOR_PENDIENTE</span> · APTO_CARGA_OFICIAL=0.</p>
+<p><b>Regla vigente:</b> BARRA CONTROL no se escribe en el ENS. La relación PC→M vive en el mantenedor de la Plataforma.</p>
+</div>
+</div></body></html>

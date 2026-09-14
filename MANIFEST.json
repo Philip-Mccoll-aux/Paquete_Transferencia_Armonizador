@@ -1,0 +1,74 @@
+{
+  "files": [
+    {
+      "path": "00_LEER_PRIMERO.md",
+      "size": 1090,
+      "sha256": "db6740be3fe22fc96ba7f7e7d0c260550270419a84a0e9ff9f332c03b69380df"
+    },
+    {
+      "path": "documentacion/01_VALIDACION_RESULTADO_EXPERTO.md",
+      "size": 3581,
+      "sha256": "19183f24d37b91af8bba11dcae095e55a0cf4615d6eb8b84e7839160bc8725c4"
+    },
+    {
+      "path": "documentacion/02_ESPECIFICACION_FUNCIONAL_ARMONIZADOR_LT.md",
+      "size": 5107,
+      "sha256": "186f27d77c8f750781a23a723244b8ae55f963db37859e54731e0b5171ffaf92"
+    },
+    {
+      "path": "documentacion/03_PROMPT_MAESTRO_INGENIERO_IA.md",
+      "size": 4943,
+      "sha256": "dec8129dd916ec56bb79003877cf1713a12b1147d715e53480170e7ad3f53877"
+    },
+    {
+      "path": "documentacion/04_TESTS_ACEPTACION.md",
+      "size": 1842,
+      "sha256": "50a9fb2136eb016923ff175fce6b7d53af3c48ef4d729a346414c090ca22ec75"
+    },
+    {
+      "path": "documentacion/05_CASOS_Y_WARNINGS.md",
+      "size": 1254,
+      "sha256": "f6ca82d7650d006194e5418034da33a06714fd3147f7b5117579dbc0db0baa69"
+    },
+    {
+      "path": "evidencia/Golden_Case_Pelambres_2511.json",
+      "size": 987,
+      "sha256": "b5ce985372651a2bb31b9d66a1255182676b6ce05a360a16aa62c4924bb895a7"
+    },
+    {
+      "path": "evidencia/Resumen_Validacion_Final.json",
+      "size": 1688,
+      "sha256": "7297d0bd41ed7cad89c07c615563858ff5bb61c7f36ab54871ab9363ee89aa5d"
+    },
+    {
+      "path": "golden_case/07_ENS_Mercado_Libre_2511_ESPERADO_PELAMBRES.xlsx",
+      "size": 432072,
+      "sha256": "904784f02ce6c1a1f762f0db650b53f5ee93ef6c841a003e2b971698ef665542"
+    },
+    {
+      "path": "golden_case/Maqueta_Pelambres_2511.html",
+      "size": 3873,
+      "sha256": "ce23a9bd6dd0ba9c063dd536ac37bf01fb6c57980d8341073cd1f5a307e52a3a"
+    },
+    {
+      "path": "golden_case/Revision_Pelambres_2511_M.xlsx",
+      "size": 35214,
+      "sha256": "e23a5307201ed04686771e6346361c1d32ccbb837e015c7c064b866a2eb0fecd"
+    },
+    {
+      "path": "insumos/07_ENS_Mercado_Libre_2511_ORIGINAL.xlsx",
+      "size": 480266,
+      "sha256": "fe796a3da2f672c41bbd5873167d2720b1c1e59a299f2f345357cba8a388e1a3"
+    },
+    {
+      "path": "insumos/Resultado_Sistema_Experto_LT_Final_M_Fijo.xlsx",
+      "size": 18782906,
+      "sha256": "f989f81abb45acf726a41dfedf0cfef961384b42e9933b19f7561d0277dbe705"
+    },
+    {
+      "path": "scripts/verificar_golden_pelambres_2511.py",
+      "size": 2260,
+      "sha256": "832b2753d9c76d1f77f76d8cb50633b07ef4375a61bc7d41a3aaca2dccc8441b"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "archivo_resultado": "Resultado_Sistema_Experto_LT_Final_M_Fijo.xlsx",
+  "sheets": 50,
+  "base_lt_rows": 296,
+  "base_lt_matches_first_15_of_propuesta": true,
+  "potencias_rows": 296,
+  "m_groups": 194,
+  "m_modes": {
+    "VECTOR_UNICO": 149,
+    "REPARTO_PC_AUTORIZADO": 1,
+    "VECTOR_COMPARTIDO": 44
+  },
+  "pc_m_rows": 294,
+  "non_efe_groups_with_multiple_m": 0,
+  "retiros_sin_pc": 21,
+  "sin_medidor_asociado_rows": [
+    [
+      8,
+      "AGUAS PACIFICO SPA",
+      "S/E PUCHUNCAVI"
+    ],
+    [
+      201,
+      "MINERA CENTINELA",
+      "S/E SOCOMPA"
+    ]
+  ],
+  "m_missing_numeric_id_count": 19,
+  "group_months": 6014,
+  "group_months_apto_composicion": 5892,
+  "group_months_no_apto_composicion": 122,
+  "apto_carga_oficial_counts": {
+    "0": 6014
+  },
+  "pelambres": {
+    "id_grupo_medicion": "96790240_FAM_001",
+    "id_vector": "GRUPO:28652cb9be6322f4f3a38b50",
+    "id_grupo_consulta": "CONSULTA:40f9c979c1b33fdc7ada284c",
+    "id_m_persistente": "M:1f24d4bc450f3e5e9b06c51d",
+    "barraf_m": "QUILLOTA______220",
+    "barra_infotecnica_m": "BA S/E QUILLOTA 220KV BP1-1",
+    "id_barra_infotecnica_m": "519",
+    "pcs": [
+      "S/E LOS PIUQUENES",
+      "S/E MAURO"
+    ],
+    "n_pc": 2,
+    "mes": "2511",
+    "origenes": [
+      "CENTELLA______220",
+      "QUILLOTA______220"
+    ],
+    "energia_m_mwh": 128060.43698,
+    "estado_armonizacion": "RECETA_APTA_ENSAYO_MANTENEDOR_PENDIENTE",
+    "apto_composicion": true,
+    "apto_carga_oficial": false,
+    "suministradores": {
+      "AES_GENER": 28740.712675,
+      "ALTO_MAIPO": 65934.57625499999,
+      "ARRAYAN_EOLICO": 4585.622173,
+      "CONEJO_SOLAR": 16096.239654,
+      "JAVIERA": 12703.286223
+    }
+  }
+}

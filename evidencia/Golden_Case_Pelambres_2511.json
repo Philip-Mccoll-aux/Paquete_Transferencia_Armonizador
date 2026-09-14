@@ -1,0 +1,40 @@
+{
+  "mes": "2511",
+  "cliente": {
+    "rut": "96790240-3",
+    "razon_social": "MINERA LOS PELAMBRES"
+  },
+  "grupo": {
+    "id_grupo_medicion": "96790240_FAM_001",
+    "id_vector": "GRUPO:28652cb9be6322f4f3a38b50",
+    "id_grupo_consulta": "CONSULTA:40f9c979c1b33fdc7ada284c"
+  },
+  "m": {
+    "id_m_persistente": "M:1f24d4bc450f3e5e9b06c51d",
+    "barraf": "QUILLOTA______220",
+    "barra_infotecnica": "BA S/E QUILLOTA 220KV BP1-1",
+    "id_barra_infotecnica": "519"
+  },
+  "pcs": [
+    "S/E LOS PIUQUENES",
+    "S/E MAURO"
+  ],
+  "origenes": {
+    "CENTELLA______220": 91552.117116,
+    "QUILLOTA______220": 36508.319864
+  },
+  "por_suministrador": {
+    "AES_GENER": 28740.712675,
+    "ALTO_MAIPO": 65934.57625499999,
+    "ARRAYAN_EOLICO": 4585.622173,
+    "CONEJO_SOLAR": 16096.239654,
+    "JAVIERA": 12703.286223
+  },
+  "total_mwh": 128060.43698,
+  "reglas": [
+    "no_barra_control_en_ens",
+    "no_duplicar_por_pc",
+    "preservar_suministrador",
+    "conservar_total_mwh"
+  ]
+}
