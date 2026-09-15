@@ -44,6 +44,7 @@ def ejecutar(ruta_ens: str, ruta_contrato: str, mes: str, directorio_salida: str
         ruta_contrato,
         resultado,
         qa_global,
+        contrato=contrato,
         parametros={"mes": mes, "ens_original": ruta_ens, "contrato": ruta_contrato},
     )
 

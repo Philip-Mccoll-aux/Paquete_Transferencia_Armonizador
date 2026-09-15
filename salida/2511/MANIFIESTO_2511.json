@@ -1,7 +1,7 @@
 {
   "version_armonizador": "0.1.0",
   "mes": "2511",
-  "generado_en_utc": "2026-09-15T11:26:07.897502+00:00",
+  "generado_en_utc": "2026-09-15T15:13:24.733644+00:00",
   "parametros": {
     "mes": "2511",
     "ens_original": "insumos/07_ENS_Mercado_Libre_2511_ORIGINAL.xlsx",
@@ -20,7 +20,7 @@
   "salidas": {
     "ens_armonizado": {
       "ruta": "salida/2511/ENS_ARMONIZADO_2511.xlsx",
-      "sha256": "1341ea52227db6ba6a66df8b078f03fd9f6a4e508417717d0854b18e83af1ba6"
+      "sha256": "6020f8d2b1b53f37f1339ccaa3dc175f99f1fe8d4ccc92774124b8fdc335678e"
     },
     "traza": {
       "ruta": "salida/2511/TRAZA_2511.csv",
@@ -33,6 +33,10 @@
     "warnings": {
       "ruta": "salida/2511/WARNINGS_2511.json",
       "sha256": "9b0e1187fe25830336638e0cfe5c9c8d1113a8aa34b453c35dbd68d11ad31c08"
+    },
+    "grupos": {
+      "ruta": "salida/2511/GRUPOS_2511.csv",
+      "sha256": "8a7f590afd5a04463d3be2ce83a3df7852a7f060ab077ec26891d897f428b551"
     }
   },
   "resumen": {

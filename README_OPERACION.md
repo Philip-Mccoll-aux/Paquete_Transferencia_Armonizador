@@ -32,10 +32,21 @@ Salidas generadas en `salida/<MES>/`:
 | Archivo | Contenido |
 |---|---|
 | `ENS_ARMONIZADO_<MES>.xlsx` | ENS con la energía de cada grupo/mes apto publicada bajo M. |
+| `GRUPOS_<MES>.csv` | **Todos** los grupos de consulta del mes, uno por fila: cliente, M, `estado` (`APTO_ARMONIZADO` / `OMITIDO_BARRAF_AUSENTE_EN_ENS` / `BLOQUEADO`), motivo de bloqueo si aplica, y MWh armonizado. Es la respuesta directa a "qué grupos fueron aptos para armonización". |
 | `TRAZA_<MES>.csv` | Traza fila origen → fila destino: grupo, M, BarraF origen, factor, MWh antes/después, posición destino. |
-| `QA_<MES>.json` | Conservación global y por grupo/suministrador. |
+| `QA_<MES>.json` | Conservación global y por grupo/suministrador (sólo grupos armonizados). |
 | `WARNINGS_<MES>.json` | Motivos de cada grupo/mes bloqueado u observado (ver §4). |
 | `MANIFIESTO_<MES>.json` | Hashes SHA-256 de entradas y salidas, versión del armonizador, parámetros, fecha. |
+
+Para ver rápido los grupos aptos de un mes ya corrido:
+
+```bash
+# Windows / PowerShell:
+Import-Csv salida\<MES>\GRUPOS_<MES>.csv | Where-Object estado -eq APTO_ARMONIZADO | Format-Table cliente, barraf_m, mwh_armonizado
+
+# Linux/macOS:
+awk -F, '$8=="APTO_ARMONIZADO"' salida/<MES>/GRUPOS_<MES>.csv | cut -d, -f2,4,10
+```
 
 El proceso retorna código de salida `1` si detecta `BARRA CONTROL` en la
 salida o si la conservación global de MWh no cuadra; en cualquier otro caso
