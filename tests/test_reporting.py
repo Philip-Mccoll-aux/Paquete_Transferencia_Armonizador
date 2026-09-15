@@ -70,21 +70,42 @@ def test_listado_incluye_apto_omitido_y_bloqueado(tmp_path):
     )
     receta_bloqueada.bloquear("APTO_COMPOSICION=0")
 
+    # Auto-mapeo: la BarraF de origen ya es la de M -> sin discontinuidad.
+    receta_sin_discontinuidad = RecetaGrupoMes(
+        id_grupo_consulta="CONSULTA:sin_discontinuidad",
+        mes="2511",
+        id_m_persistente="M:4",
+        id_cliente="44444444",
+        rut_integracion="44444444-4",
+        barraf_m="E______220",
+        barra_infotecnica_m="BA E 220",
+        id_barra_infotecnica_m="4",
+        modo_consulta="VECTOR_UNICO",
+        cliente="CLIENTE CUATRO",
+        origenes={"E______220"},
+        factor_por_origen={"E______220": 1.0},
+    )
+
     contrato = ContratoLT(
         mes="2511",
         recetas={
             receta_apta.id_grupo_consulta: receta_apta,
             receta_omitida.id_grupo_consulta: receta_omitida,
             receta_bloqueada.id_grupo_consulta: receta_bloqueada,
+            receta_sin_discontinuidad.id_grupo_consulta: receta_sin_discontinuidad,
         },
         origen_index={
             ("11111111-1", "A______220"): receta_apta.id_grupo_consulta,
             ("22222222-2", "C______220"): receta_omitida.id_grupo_consulta,
+            ("44444444-4", "E______220"): receta_sin_discontinuidad.id_grupo_consulta,
         },
         advertencias=[],
     )
 
-    filas = [_fila("A______220", "BA A 220", "9", "Suministrador Uno", "1-1", 10.0, "11111111-1")]
+    filas = [
+        _fila("A______220", "BA A 220", "9", "Suministrador Uno", "1-1", 10.0, "11111111-1"),
+        _fila("E______220", "BA E 220", "4", "Suministrador Uno", "1-1", 5.0, "44444444-4"),
+    ]
     encabezados = list(filas[0].keys())
     resultado = armonizar(encabezados, filas, contrato)
 
@@ -97,9 +118,13 @@ def test_listado_incluye_apto_omitido_y_bloqueado(tmp_path):
     assert filas_csv["CONSULTA:apta"]["estado"] == "APTO_ARMONIZADO"
     assert filas_csv["CONSULTA:apta"]["cliente"] == "CLIENTE UNO"
     assert filas_csv["CONSULTA:apta"]["mwh_armonizado"] == "10.0"
+    assert filas_csv["CONSULTA:apta"]["barraf_origenes"] == "A______220"
+    assert filas_csv["CONSULTA:apta"]["discontinuidad_barraf"] == "True"
 
     assert filas_csv["CONSULTA:omitida"]["estado"] == "OMITIDO_BARRAF_AUSENTE_EN_ENS"
     assert filas_csv["CONSULTA:omitida"]["mwh_armonizado"] == ""
 
     assert filas_csv["CONSULTA:bloqueada"]["estado"] == "BLOQUEADO"
     assert filas_csv["CONSULTA:bloqueada"]["motivos_bloqueo"] == "APTO_COMPOSICION=0"
+
+    assert filas_csv["CONSULTA:sin_discontinuidad"]["discontinuidad_barraf"] == "False"

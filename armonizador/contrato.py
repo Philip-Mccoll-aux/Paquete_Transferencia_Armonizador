@@ -207,7 +207,7 @@ def cargar_contrato(ruta_resultado_experto: str, mes: str) -> ContratoLT:
 
     for clave, grupos in reclamos.items():
         if len(grupos) > 1:
-            for id_grupo in grupos:
+            for id_grupo in sorted(grupos):
                 recetas[id_grupo].bloquear(f"CONFLICTO_MAPEO_ORIGEN:{clave[0]}|{clave[1]}")
                 advertencias.append(
                     {

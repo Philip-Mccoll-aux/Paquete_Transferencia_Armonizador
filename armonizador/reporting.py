@@ -67,9 +67,11 @@ def escribir_listado_grupos(ruta: str, contrato: ContratoLT, resultado: Resultad
         "id_grupo_consulta",
         "cliente",
         "rut_integracion",
+        "barraf_origenes",
         "barraf_m",
         "barra_infotecnica_m",
         "id_barra_infotecnica_m",
+        "discontinuidad_barraf",
         "modo_consulta",
         "estado",
         "motivos_bloqueo",
@@ -85,14 +87,20 @@ def escribir_listado_grupos(ruta: str, contrato: ContratoLT, resultado: Resultad
                 estado = "OMITIDO_BARRAF_AUSENTE_EN_ENS"
             else:
                 estado = "APTO_ARMONIZADO"
+            # Discontinuidad: la(s) BarraF de origen del mes no coinciden
+            # con la BarraF vigente de M (cambió de barra física/nominal,
+            # o hay más de una fuente conviviendo bajo el mismo M).
+            discontinuidad = bool(receta.origenes) and receta.origenes != {receta.barraf_m}
             writer.writerow(
                 [
                     receta.id_grupo_consulta,
                     receta.cliente,
                     receta.rut_integracion,
+                    "; ".join(sorted(receta.origenes)),
                     receta.barraf_m,
                     receta.barra_infotecnica_m,
                     receta.id_barra_infotecnica_m,
+                    discontinuidad,
                     receta.modo_consulta,
                     estado,
                     "; ".join(receta.motivos_bloqueo),

@@ -118,7 +118,10 @@ def armonizar(encabezados: list[str], filas_ens: list[dict[str, Any]], contrato:
 
         posiciones_por_origen: dict[str, list[int]] = {}
         origen_ausente = False
-        for barraf in receta.origenes:
+        # Se itera en orden estable (no el de iteración del set, que
+        # depende del hash-seed del proceso) para que la traza y el orden
+        # de fusión de filas sean reproducibles entre corridas (Gate 7).
+        for barraf in sorted(receta.origenes):
             posiciones = indice_por_origen.get((receta.rut_integracion, barraf), [])
             if not posiciones:
                 advertencias.append(
