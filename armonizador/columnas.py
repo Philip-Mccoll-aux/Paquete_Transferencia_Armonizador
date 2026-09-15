@@ -1,0 +1,86 @@
+"""Nombres de columnas de las hojas de entrada.
+
+Centralizar los nombres aquí evita strings mágicos repetidos por todo el
+motor y hace explícito el contrato de columnas que el armonizador espera
+de cada archivo.
+"""
+
+# --- Hoja DATA del ENS (original y armonizado) --------------------------
+ENS_CLAVE_ANIO_MES = "Clave Año_Mes"
+ENS_BARRA_INFOTECNICA = "BarraInfotecnica"
+ENS_BARRA_F = "BarraF"
+ENS_ID_BARRA_INFOTECNICA = "IdBarraInfotecnica"
+ENS_TIPO = "Tipo"
+ENS_RZ_SOC_CLIENTE = "RzSocCliente"
+ENS_RUT_CLIENTE = "RUTCliente"
+ENS_DISTRIBUIDORA_CONEC = "Distribuidora_Conec"
+ENS_RZ_SOC_SUMINISTRADOR = "RzSocSuministrador"
+ENS_RUT_SUMINISTRADOR = "RUTSuministrador"
+ENS_MWH = "MWh"
+ENS_RUT_DISTRIBUIDORA = "RUTDistribuidora"
+ENS_ID_PUNTO_SUMINISTRO = "IdPuntoSuministro"
+
+ENS_COLUMNAS = [
+    ENS_CLAVE_ANIO_MES,
+    ENS_BARRA_INFOTECNICA,
+    ENS_BARRA_F,
+    ENS_ID_BARRA_INFOTECNICA,
+    ENS_TIPO,
+    ENS_RZ_SOC_CLIENTE,
+    ENS_RUT_CLIENTE,
+    ENS_DISTRIBUIDORA_CONEC,
+    ENS_RZ_SOC_SUMINISTRADOR,
+    ENS_RUT_SUMINISTRADOR,
+    ENS_MWH,
+    ENS_RUT_DISTRIBUIDORA,
+    ENS_ID_PUNTO_SUMINISTRO,
+]
+
+# Campos de identidad de medición que el armonizador reemplaza por los de M.
+ENS_CAMPOS_IDENTIDAD_MEDICION = (ENS_BARRA_INFOTECNICA, ENS_BARRA_F, ENS_ID_BARRA_INFOTECNICA)
+
+# Campos que definen si dos filas ya transformadas pueden agregarse (sumar
+# MWh) entre sí: mismo mes, cliente, M y suministrador, y demás campos de
+# salida compatibles. MWh queda deliberadamente fuera de esta clave.
+ENS_CLAVE_AGREGACION = [
+    ENS_CLAVE_ANIO_MES,
+    ENS_BARRA_INFOTECNICA,
+    ENS_BARRA_F,
+    ENS_ID_BARRA_INFOTECNICA,
+    ENS_TIPO,
+    ENS_RZ_SOC_CLIENTE,
+    ENS_RUT_CLIENTE,
+    ENS_DISTRIBUIDORA_CONEC,
+    ENS_RZ_SOC_SUMINISTRADOR,
+    ENS_RUT_SUMINISTRADOR,
+    ENS_RUT_DISTRIBUIDORA,
+    ENS_ID_PUNTO_SUMINISTRO,
+]
+
+HOJA_ENS_DATA = "DATA"
+
+# --- Hojas contractuales del Sistema Experto -----------------------------
+HOJA_ESTADOS_M_MES = "LT_ESTADOS_M_MES"
+HOJA_COMPOSICION_M = "LT_COMPOSICION_M"
+HOJA_M_PERSISTENTES = "LT_M_PERSISTENTES"
+HOJA_PC_M = "LT_PC_M"
+HOJA_SUMINISTROS_M = "LT_SUMINISTROS_M"
+
+C_ID_GRUPO_CONSULTA = "ID_GRUPO_CONSULTA"
+C_ID_M_PERSISTENTE = "ID_M_PERSISTENTE"
+C_ID_CLIENTE = "ID_CLIENTE"
+C_RUT_INTEGRACION = "RUT_INTEGRACION"
+C_MES_ENERGIA = "MES_ENERGIA"
+C_BARRAF_M = "BARRAF_M"
+C_BARRA_INFOTECNICA_M = "BarraInfotecnica_M"
+C_ID_BARRA_INFOTECNICA_M = "ID_BARRA_INFOTECNICA_M"
+C_MODO_CONSULTA = "MODO_CONSULTA"
+C_BARRAF_ORIGEN = "BARRAF_ORIGEN"
+C_FACTOR_ORIGEN_M = "FACTOR_ORIGEN_M"
+C_CONTRIBUCION_MWH = "CONTRIBUCION_MWH"
+C_APTO_COMPOSICION = "APTO_COMPOSICION"
+C_ESTADO_REGLA = "ESTADO_REGLA"
+C_ESTADO_M = "ESTADO_M"
+C_VERSION_RECETA = "VERSION_RECETA"
+
+MODO_REPARTO_PC_AUTORIZADO = "REPARTO_PC_AUTORIZADO"

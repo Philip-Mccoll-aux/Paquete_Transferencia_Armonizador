@@ -1,0 +1,47 @@
+{
+  "version_armonizador": "0.1.0",
+  "mes": "2511",
+  "generado_en_utc": "2026-09-15T11:26:07.897502+00:00",
+  "parametros": {
+    "mes": "2511",
+    "ens_original": "insumos/07_ENS_Mercado_Libre_2511_ORIGINAL.xlsx",
+    "contrato": "insumos/Resultado_Sistema_Experto_LT_Final_M_Fijo.xlsx"
+  },
+  "entradas": {
+    "ens_original": {
+      "ruta": "insumos/07_ENS_Mercado_Libre_2511_ORIGINAL.xlsx",
+      "sha256": "fe796a3da2f672c41bbd5873167d2720b1c1e59a299f2f345357cba8a388e1a3"
+    },
+    "resultado_sistema_experto": {
+      "ruta": "insumos/Resultado_Sistema_Experto_LT_Final_M_Fijo.xlsx",
+      "sha256": "f989f81abb45acf726a41dfedf0cfef961384b42e9933b19f7561d0277dbe705"
+    }
+  },
+  "salidas": {
+    "ens_armonizado": {
+      "ruta": "salida/2511/ENS_ARMONIZADO_2511.xlsx",
+      "sha256": "1341ea52227db6ba6a66df8b078f03fd9f6a4e508417717d0854b18e83af1ba6"
+    },
+    "traza": {
+      "ruta": "salida/2511/TRAZA_2511.csv",
+      "sha256": "ce2a3d6cb60ce02a96b76b22e4341eacb425e494ee1ae391903f18c1d13ed241"
+    },
+    "qa": {
+      "ruta": "salida/2511/QA_2511.json",
+      "sha256": "2e2561f2ccbb7f0f8a4c2b8478d43eab64a6fe7bfdaa7c4dabc384e2aeaaa686"
+    },
+    "warnings": {
+      "ruta": "salida/2511/WARNINGS_2511.json",
+      "sha256": "9b0e1187fe25830336638e0cfe5c9c8d1113a8aa34b453c35dbd68d11ad31c08"
+    }
+  },
+  "resumen": {
+    "grupos_procesados": 186,
+    "grupos_omitidos": 6,
+    "filas_entrada": 5163,
+    "filas_salida": 5157,
+    "mwh_entrada_total": 4112242.3654810013,
+    "mwh_salida_total": 4112242.3654809967,
+    "conserva_total": true
+  }
+}
