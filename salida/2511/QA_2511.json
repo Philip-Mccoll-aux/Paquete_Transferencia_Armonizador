@@ -1,0 +1,3321 @@
+{
+  "global": {
+    "filas_entrada": 5163,
+    "filas_salida": 5157,
+    "filas_eliminadas_por_fusion": 6,
+    "mwh_entrada_total": 4112242.3654810013,
+    "mwh_salida_total": 4112242.3654809967,
+    "conserva_total": true,
+    "contiene_barra_control": false,
+    "grupos_procesados": 186,
+    "grupos_omitidos": 6,
+    "grupos_no_conservan": []
+  },
+  "por_grupo": [
+    {
+      "id_grupo_consulta": "CONSULTA:b9a2b05eb464e0fe01059f87",
+      "mes": "2511",
+      "total_origen_mwh": 512.188098,
+      "total_destino_mwh": 512.188098,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 512.188098,
+          "destino_mwh": 512.188098,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:2474f09eab43a8bb9d555829",
+      "mes": "2511",
+      "total_origen_mwh": 21681.716447999996,
+      "total_destino_mwh": 21681.716447999996,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "El Pelícano Solar Company SpA",
+          "rut_suministrador": "76337599-4",
+          "origen_mwh": 10774.425408,
+          "destino_mwh": 10774.425408,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 8709.758727999999,
+          "destino_mwh": 8709.758727999999,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "San Juan S.A.",
+          "rut_suministrador": "76319883-9",
+          "origen_mwh": 2197.532312,
+          "destino_mwh": 2197.532312,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:ace08137a7265f64d91b6e50",
+      "mes": "2511",
+      "total_origen_mwh": 3437.450836,
+      "total_destino_mwh": 3437.450836,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "El Pelícano Solar Company SpA",
+          "rut_suministrador": "76337599-4",
+          "origen_mwh": 3437.450836,
+          "destino_mwh": 3437.450836,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:a91b01806a134f34a89f7063",
+      "mes": "2511",
+      "total_origen_mwh": 6208.515552000001,
+      "total_destino_mwh": 6208.515552000001,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 4994.436470000001,
+          "destino_mwh": 4994.436470000001,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "San Juan S.A.",
+          "rut_suministrador": "76319883-9",
+          "origen_mwh": 1214.079082,
+          "destino_mwh": 1214.079082,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:1841096cfe7632307212b817",
+      "mes": "2511",
+      "total_origen_mwh": 3036.9161839999997,
+      "total_destino_mwh": 3036.9161839999997,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "El Pelícano Solar Company SpA",
+          "rut_suministrador": "76337599-4",
+          "origen_mwh": 3036.9161839999997,
+          "destino_mwh": 3036.9161839999997,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:e0cf5304de3ca75f597934a0",
+      "mes": "2511",
+      "total_origen_mwh": 3258.4478560000007,
+      "total_destino_mwh": 3258.4478560000007,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "El Pelícano Solar Company SpA",
+          "rut_suministrador": "76337599-4",
+          "origen_mwh": 1618.292365,
+          "destino_mwh": 1618.292365,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 1297.3474580000002,
+          "destino_mwh": 1297.3474580000002,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "San Juan S.A.",
+          "rut_suministrador": "76319883-9",
+          "origen_mwh": 342.808033,
+          "destino_mwh": 342.808033,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:805ab350bcb4737622a406a1",
+      "mes": "2511",
+      "total_origen_mwh": 2745.988902,
+      "total_destino_mwh": 2745.988902,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "El Pelícano Solar Company SpA",
+          "rut_suministrador": "76337599-4",
+          "origen_mwh": 1363.2119069999999,
+          "destino_mwh": 1363.2119069999999,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 1107.747656,
+          "destino_mwh": 1107.747656,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "San Juan S.A.",
+          "rut_suministrador": "76319883-9",
+          "origen_mwh": 275.029339,
+          "destino_mwh": 275.029339,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:5afcdef35ee39f29e637f061",
+      "mes": "2511",
+      "total_origen_mwh": 4203.380139999999,
+      "total_destino_mwh": 4203.380139999999,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Acciona Energía Chile Holdings S.A.",
+          "rut_suministrador": "76437712-5",
+          "origen_mwh": 4203.380139999999,
+          "destino_mwh": 4203.380139999999,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:e2851a986225406924d2ff54",
+      "mes": "2511",
+      "total_origen_mwh": 83933.625535,
+      "total_destino_mwh": 83933.625535,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 83933.625535,
+          "destino_mwh": 83933.625535,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:136e9cea590bd1e143631491",
+      "mes": "2511",
+      "total_origen_mwh": 19916.578986,
+      "total_destino_mwh": 19916.578986,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 19916.578986,
+          "destino_mwh": 19916.578986,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:2cb636d1ac4531b13c0e1e4f",
+      "mes": "2511",
+      "total_origen_mwh": 49139.836525,
+      "total_destino_mwh": 49139.836525,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 49139.836525,
+          "destino_mwh": 49139.836525,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:9367f941d7f7f44e15b2b322",
+      "mes": "2511",
+      "total_origen_mwh": 18239.760934,
+      "total_destino_mwh": 18239.760934,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 18239.760934,
+          "destino_mwh": 18239.760934,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:c430258bf8c67c3a83165861",
+      "mes": "2511",
+      "total_origen_mwh": 6459.627923999999,
+      "total_destino_mwh": 6459.627923999999,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 6459.627923999999,
+          "destino_mwh": 6459.627923999999,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:2e4077d1ebf065f4b7f5890f",
+      "mes": "2511",
+      "total_origen_mwh": 88522.571883,
+      "total_destino_mwh": 88522.571883,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 88522.571883,
+          "destino_mwh": 88522.571883,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:157d6bc33261d2264869a3f9",
+      "mes": "2511",
+      "total_origen_mwh": 29525.944994999998,
+      "total_destino_mwh": 29525.944994999998,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 29525.944994999998,
+          "destino_mwh": 29525.944994999998,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:d6c2d4a9a16dbca45b0961e2",
+      "mes": "2511",
+      "total_origen_mwh": 58051.809928999995,
+      "total_destino_mwh": 58051.809928999995,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "AES Andes S.A.",
+          "rut_suministrador": "94272000-9",
+          "origen_mwh": 58051.809928999995,
+          "destino_mwh": 58051.809928999995,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:641e9490e6cdb701f74c2c10",
+      "mes": "2511",
+      "total_origen_mwh": 50062.903286,
+      "total_destino_mwh": 50062.903286,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 50062.903286,
+          "destino_mwh": 50062.903286,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:bbe432bea0fef4a989f2f96e",
+      "mes": "2511",
+      "total_origen_mwh": 30458.305594,
+      "total_destino_mwh": 30458.305594,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 30458.305594,
+          "destino_mwh": 30458.305594,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:1b2399a38e1bea1ccae6e59f",
+      "mes": "2511",
+      "total_origen_mwh": 47226.756314,
+      "total_destino_mwh": 47226.756314,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "AES Andes S.A.",
+          "rut_suministrador": "94272000-9",
+          "origen_mwh": 47226.756314,
+          "destino_mwh": 47226.756314,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:0408091579a6678bdc26a29c",
+      "mes": "2511",
+      "total_origen_mwh": 42.711769999999994,
+      "total_destino_mwh": 42.711769999999994,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 42.711769999999994,
+          "destino_mwh": 42.711769999999994,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:1f73e764dce37194c5e3aacd",
+      "mes": "2511",
+      "total_origen_mwh": 3503.742969,
+      "total_destino_mwh": 3503.742969,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 1909.439974,
+          "destino_mwh": 1909.439974,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Noracid S.A.",
+          "rut_suministrador": "76858530-K",
+          "origen_mwh": 1594.302995,
+          "destino_mwh": 1594.302995,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:b104b4b0254872b67006aea9",
+      "mes": "2511",
+      "total_origen_mwh": 1342.058662,
+      "total_destino_mwh": 1342.058662,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 1342.058662,
+          "destino_mwh": 1342.058662,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:95a62e41e607f16d08730898",
+      "mes": "2511",
+      "total_origen_mwh": 4220.080129,
+      "total_destino_mwh": 4220.080129,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Imelsa Energía SpA",
+          "rut_suministrador": "76472262-0",
+          "origen_mwh": 4220.080129,
+          "destino_mwh": 4220.080129,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:35ee33050bf2880f1f03ec3a",
+      "mes": "2511",
+      "total_origen_mwh": 28590.709866999998,
+      "total_destino_mwh": 28590.709866999998,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 28590.709866999998,
+          "destino_mwh": 28590.709866999998,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:abee32de74f029ba75828ca2",
+      "mes": "2511",
+      "total_origen_mwh": 21103.905478999997,
+      "total_destino_mwh": 21103.905478999997,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "AES Andes S.A.",
+          "rut_suministrador": "94272000-9",
+          "origen_mwh": 21103.905478999997,
+          "destino_mwh": 21103.905478999997,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:7fdc96663eaf2296c277c6d3",
+      "mes": "2511",
+      "total_origen_mwh": 1663.14016,
+      "total_destino_mwh": 1663.14016,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 1663.14016,
+          "destino_mwh": 1663.14016,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:5d15556f15bb91fd40f6ce32",
+      "mes": "2511",
+      "total_origen_mwh": 88058.906792,
+      "total_destino_mwh": 88058.906792,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "AES Andes S.A.",
+          "rut_suministrador": "94272000-9",
+          "origen_mwh": 88058.906792,
+          "destino_mwh": 88058.906792,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:feb72d8ef85705f6699404d7",
+      "mes": "2511",
+      "total_origen_mwh": 1678.640145,
+      "total_destino_mwh": 1678.640145,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 1678.640145,
+          "destino_mwh": 1678.640145,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:6fb52b9ea5fcf153d10dc8bf",
+      "mes": "2511",
+      "total_origen_mwh": 2431.871354,
+      "total_destino_mwh": 2431.871354,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "KDM Energía S.A.",
+          "rut_suministrador": "76059578-0",
+          "origen_mwh": 2431.871354,
+          "destino_mwh": 2431.871354,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:df7d48226544d85a6bdc4bfe",
+      "mes": "2511",
+      "total_origen_mwh": 5093.0574639999995,
+      "total_destino_mwh": 5093.0574639999995,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 5093.0574639999995,
+          "destino_mwh": 5093.0574639999995,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:fa9586f2bd0ef3f83c5ca6d0",
+      "mes": "2511",
+      "total_origen_mwh": 25311.822627999998,
+      "total_destino_mwh": 25311.822627999998,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "AES Andes S.A.",
+          "rut_suministrador": "94272000-9",
+          "origen_mwh": 25311.822627999998,
+          "destino_mwh": 25311.822627999998,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:510a4a9b535c8ab882f54ef9",
+      "mes": "2511",
+      "total_origen_mwh": 1.060532,
+      "total_destino_mwh": 1.060532,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 1.060532,
+          "destino_mwh": 1.060532,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:3d6093107f15b0d6b8d24c5d",
+      "mes": "2511",
+      "total_origen_mwh": 2422.1270980000004,
+      "total_destino_mwh": 2422.1270980000004,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 2422.1270980000004,
+          "destino_mwh": 2422.1270980000004,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:c8e157070eb7982602d94840",
+      "mes": "2511",
+      "total_origen_mwh": 3443.077405,
+      "total_destino_mwh": 3443.077405,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Guacolda Energía SpA",
+          "rut_suministrador": "76418918-3",
+          "origen_mwh": 3443.077405,
+          "destino_mwh": 3443.077405,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:ca9a55adcb94aa5ddef4bbc0",
+      "mes": "2511",
+      "total_origen_mwh": 2972.863964,
+      "total_destino_mwh": 2972.863964,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Guacolda Energía SpA",
+          "rut_suministrador": "76418918-3",
+          "origen_mwh": 2972.863964,
+          "destino_mwh": 2972.863964,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:284c60cd23ee4e39e717bec7",
+      "mes": "2511",
+      "total_origen_mwh": 11.148307,
+      "total_destino_mwh": 11.148307,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Guacolda Energía SpA",
+          "rut_suministrador": "76418918-3",
+          "origen_mwh": 11.148307,
+          "destino_mwh": 11.148307,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:284a309879e2bc990b45553f",
+      "mes": "2511",
+      "total_origen_mwh": 2225.102769,
+      "total_destino_mwh": 2225.102769,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Acciona Energía Chile Holdings S.A.",
+          "rut_suministrador": "76437712-5",
+          "origen_mwh": 2225.102769,
+          "destino_mwh": 2225.102769,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:611b7e3f6dbdfbbffbbb6024",
+      "mes": "2511",
+      "total_origen_mwh": 1429.749764,
+      "total_destino_mwh": 1429.749764,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Acciona Energía Chile Holdings S.A.",
+          "rut_suministrador": "76437712-5",
+          "origen_mwh": 1429.749764,
+          "destino_mwh": 1429.749764,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:5765d7de00e28cb3eeb490e2",
+      "mes": "2511",
+      "total_origen_mwh": 5782.43267,
+      "total_destino_mwh": 5782.43267,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 5782.43267,
+          "destino_mwh": 5782.43267,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:7a74dc8a79883c4b8b5d84c2",
+      "mes": "2511",
+      "total_origen_mwh": 10585.605875000001,
+      "total_destino_mwh": 10585.605875000001,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 3253.753063,
+          "destino_mwh": 3253.753063,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 7331.852812,
+          "destino_mwh": 7331.852812,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:05ea73b6f00e83c0fcbeb6ae",
+      "mes": "2511",
+      "total_origen_mwh": 35619.86213,
+      "total_destino_mwh": 35619.86213,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 35619.86213,
+          "destino_mwh": 35619.86213,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:ddba2f5c1c46c9fb28b37637",
+      "mes": "2511",
+      "total_origen_mwh": 5178.150715,
+      "total_destino_mwh": 5178.150715,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 5178.150715,
+          "destino_mwh": 5178.150715,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:01c0b49999511d4e01db9ad8",
+      "mes": "2511",
+      "total_origen_mwh": 303.084875,
+      "total_destino_mwh": 303.084875,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Neoelectra Energía Chile SpA",
+          "rut_suministrador": "77081321-2",
+          "origen_mwh": 303.084875,
+          "destino_mwh": 303.084875,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:a0d1e433b72acf8bc12e20bc",
+      "mes": "2511",
+      "total_origen_mwh": 27057.479114,
+      "total_destino_mwh": 27057.479114,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 27057.479114,
+          "destino_mwh": 27057.479114,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:fc3c7cd027e4a9a932c44aba",
+      "mes": "2511",
+      "total_origen_mwh": 74558.498027,
+      "total_destino_mwh": 74558.498027,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 1917.237353,
+          "destino_mwh": 1917.237353,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 72641.26067399999,
+          "destino_mwh": 72641.26067399999,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:f120e4cc961a113f7c6ca535",
+      "mes": "2511",
+      "total_origen_mwh": 15753.505610999999,
+      "total_destino_mwh": 15753.505610999999,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 15753.505610999999,
+          "destino_mwh": 15753.505610999999,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:ca01385215ec66ca2a36e339",
+      "mes": "2511",
+      "total_origen_mwh": 3.158953,
+      "total_destino_mwh": 3.158953,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 3.158953,
+          "destino_mwh": 3.158953,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:2b26fb4ffdff6d47b14a51ad",
+      "mes": "2511",
+      "total_origen_mwh": 1269.074541,
+      "total_destino_mwh": 1269.074541,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 1269.074541,
+          "destino_mwh": 1269.074541,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:fb105092352638a4d2e8c102",
+      "mes": "2511",
+      "total_origen_mwh": 2998.8946589999996,
+      "total_destino_mwh": 2998.8946589999996,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 2998.8946589999996,
+          "destino_mwh": 2998.8946589999996,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:ca41a4dcb0f540ccfafc68e4",
+      "mes": "2511",
+      "total_origen_mwh": 2727.652655,
+      "total_destino_mwh": 2727.652655,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Acciona Energía Chile Holdings S.A.",
+          "rut_suministrador": "76437712-5",
+          "origen_mwh": 2727.652655,
+          "destino_mwh": 2727.652655,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:bd2f9e82023c19b2f0c632c5",
+      "mes": "2511",
+      "total_origen_mwh": 34148.918101999996,
+      "total_destino_mwh": 34148.918101999996,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Guacolda Energía SpA",
+          "rut_suministrador": "76418918-3",
+          "origen_mwh": 34148.918101999996,
+          "destino_mwh": 34148.918101999996,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:2f2866d576ddceb2e29abf75",
+      "mes": "2511",
+      "total_origen_mwh": 4582.1926490000005,
+      "total_destino_mwh": 4582.1926490000005,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 4582.1926490000005,
+          "destino_mwh": 4582.1926490000005,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:51ec7ee393aebf84cc435ef5",
+      "mes": "2511",
+      "total_origen_mwh": 2941.401691,
+      "total_destino_mwh": 2941.401691,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 2941.401691,
+          "destino_mwh": 2941.401691,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:f94ddff1322630f690d2afd8",
+      "mes": "2511",
+      "total_origen_mwh": 461.337506,
+      "total_destino_mwh": 461.337506,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 461.337506,
+          "destino_mwh": 461.337506,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:a481764e5a25740f200fc061",
+      "mes": "2511",
+      "total_origen_mwh": 9268.599832,
+      "total_destino_mwh": 9268.599832,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "AES Andes S.A.",
+          "rut_suministrador": "94272000-9",
+          "origen_mwh": 9268.599832,
+          "destino_mwh": 9268.599832,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:bd69e08dd11bcd6d36a3261e",
+      "mes": "2511",
+      "total_origen_mwh": 23314.65845,
+      "total_destino_mwh": 23314.65845,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Guacolda Energía SpA",
+          "rut_suministrador": "76418918-3",
+          "origen_mwh": 23314.65845,
+          "destino_mwh": 23314.65845,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:a74132f066921b70d80980cb",
+      "mes": "2511",
+      "total_origen_mwh": 4348.448,
+      "total_destino_mwh": 4348.448,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "AES Andes S.A.",
+          "rut_suministrador": "94272000-9",
+          "origen_mwh": 4348.448,
+          "destino_mwh": 4348.448,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:e4bfffe28b4410ca5c8dbb8b",
+      "mes": "2511",
+      "total_origen_mwh": 18511.259732000002,
+      "total_destino_mwh": 18511.259732000002,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 18511.259732000002,
+          "destino_mwh": 18511.259732000002,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:88c06a1cf4616721b4edb945",
+      "mes": "2511",
+      "total_origen_mwh": 112268.134851,
+      "total_destino_mwh": 112268.134851,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 112268.134851,
+          "destino_mwh": 112268.134851,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:460e86d1a0e9f9e822710ecb",
+      "mes": "2511",
+      "total_origen_mwh": 11201.959309,
+      "total_destino_mwh": 11201.959309,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 11201.959309,
+          "destino_mwh": 11201.959309,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:4a303875565f4ef649ff6375",
+      "mes": "2511",
+      "total_origen_mwh": 1396.428133,
+      "total_destino_mwh": 1396.428133,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "EMOAC SpA",
+          "rut_suministrador": "76208888-6",
+          "origen_mwh": 1396.428133,
+          "destino_mwh": 1396.428133,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:ff59e7a4e19da1b5ae75eb60",
+      "mes": "2511",
+      "total_origen_mwh": 3051.692188,
+      "total_destino_mwh": 3051.692188,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 3051.692188,
+          "destino_mwh": 3051.692188,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:a184e79b0dabdac8b0dc010a",
+      "mes": "2511",
+      "total_origen_mwh": 303.420199,
+      "total_destino_mwh": 303.420199,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Acierta Energía SpA",
+          "rut_suministrador": "77333033-6",
+          "origen_mwh": 303.420199,
+          "destino_mwh": 303.420199,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:9cfba280f9043314682e2f72",
+      "mes": "2511",
+      "total_origen_mwh": 638.7840699999999,
+      "total_destino_mwh": 638.7840699999999,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 638.7840699999999,
+          "destino_mwh": 638.7840699999999,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:26eeeca5328eaf533150bf5c",
+      "mes": "2511",
+      "total_origen_mwh": 35742.107441,
+      "total_destino_mwh": 35742.107441,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "AES Andes S.A.",
+          "rut_suministrador": "94272000-9",
+          "origen_mwh": 35742.107441,
+          "destino_mwh": 35742.107441,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:6a8013958bc04bd848d0127c",
+      "mes": "2511",
+      "total_origen_mwh": 96.48661100000001,
+      "total_destino_mwh": 96.48661100000001,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 96.48661100000001,
+          "destino_mwh": 96.48661100000001,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:9ecc3d5952d846e8735d7bca",
+      "mes": "2511",
+      "total_origen_mwh": 1478.6727420000002,
+      "total_destino_mwh": 1478.6727420000002,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "On-Group S.A.",
+          "rut_suministrador": "96827870-3",
+          "origen_mwh": 1478.6727420000002,
+          "destino_mwh": 1478.6727420000002,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:57d6beafb950be0a051003de",
+      "mes": "2511",
+      "total_origen_mwh": 26179.722208,
+      "total_destino_mwh": 26179.722208,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 26179.722208,
+          "destino_mwh": 26179.722208,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:438c039c1ec107b3c3404ac8",
+      "mes": "2511",
+      "total_origen_mwh": 7472.220106999999,
+      "total_destino_mwh": 7472.220106999999,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 7472.220106999999,
+          "destino_mwh": 7472.220106999999,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:08ebd67e3e31198e9c075d2a",
+      "mes": "2511",
+      "total_origen_mwh": 12628.071615,
+      "total_destino_mwh": 12628.071615,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 12628.071615,
+          "destino_mwh": 12628.071615,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:a9135e7ebb53c4d478fb66a9",
+      "mes": "2511",
+      "total_origen_mwh": 84517.85387299999,
+      "total_destino_mwh": 84517.85387299999,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 42258.926937,
+          "destino_mwh": 42258.926937,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 42258.926935999996,
+          "destino_mwh": 42258.926935999996,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:f3cda7bb9382a67384dc9b0b",
+      "mes": "2511",
+      "total_origen_mwh": 92063.77683799999,
+      "total_destino_mwh": 92063.77683799999,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 46031.888420999996,
+          "destino_mwh": 46031.888420999996,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 46031.888416999995,
+          "destino_mwh": 46031.888416999995,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:41d49db7986a4deee89e4464",
+      "mes": "2511",
+      "total_origen_mwh": 58391.536868,
+      "total_destino_mwh": 58391.536868,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 29195.768434,
+          "destino_mwh": 29195.768434,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 29195.768434,
+          "destino_mwh": 29195.768434,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:5c44c0d142beb3de04f2d740",
+      "mes": "2511",
+      "total_origen_mwh": 49346.413498,
+      "total_destino_mwh": 49346.413498,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 24673.206749,
+          "destino_mwh": 24673.206749,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 24673.206749,
+          "destino_mwh": 24673.206749,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:860d1198202cc469a75e1f92",
+      "mes": "2511",
+      "total_origen_mwh": 25359.992111,
+      "total_destino_mwh": 25359.992111,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 12679.995968000001,
+          "destino_mwh": 12679.995968000001,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 12679.996142999998,
+          "destino_mwh": 12679.996142999998,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:565c65192bce2929f46f5c77",
+      "mes": "2511",
+      "total_origen_mwh": 53821.474822,
+      "total_destino_mwh": 53821.474822,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 26910.737411,
+          "destino_mwh": 26910.737411,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 26910.737411,
+          "destino_mwh": 26910.737411,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:5eb93484bf8dfe522d7a0523",
+      "mes": "2511",
+      "total_origen_mwh": 25055.426746,
+      "total_destino_mwh": 25055.426746,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 12527.713373,
+          "destino_mwh": 12527.713373,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 12527.713373,
+          "destino_mwh": 12527.713373,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:18eb7a563912335c6fa8b097",
+      "mes": "2511",
+      "total_origen_mwh": 963.395158,
+      "total_destino_mwh": 963.395158,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 481.697579,
+          "destino_mwh": 481.697579,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 481.697579,
+          "destino_mwh": 481.697579,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:5eb3a493e6ba9e203fefd140",
+      "mes": "2511",
+      "total_origen_mwh": 25883.171022,
+      "total_destino_mwh": 25883.171022,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 12941.585511,
+          "destino_mwh": 12941.585511,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 12941.585511,
+          "destino_mwh": 12941.585511,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:ad5079d06a6701d9eea10e03",
+      "mes": "2511",
+      "total_origen_mwh": 886.560907,
+      "total_destino_mwh": 886.560907,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 443.280454,
+          "destino_mwh": 443.280454,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 443.28045299999997,
+          "destino_mwh": 443.28045299999997,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:e17222777449feec52d13dfb",
+      "mes": "2511",
+      "total_origen_mwh": 735.184657,
+      "total_destino_mwh": 735.184657,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 367.592329,
+          "destino_mwh": 367.592329,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 367.59232799999995,
+          "destino_mwh": 367.59232799999995,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:d92a9820659e4780293ae5ba",
+      "mes": "2511",
+      "total_origen_mwh": 2121.012384,
+      "total_destino_mwh": 2121.012384,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 2121.012384,
+          "destino_mwh": 2121.012384,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:b310ceb4934bdc1527f204b1",
+      "mes": "2511",
+      "total_origen_mwh": 2408.321578,
+      "total_destino_mwh": 2408.321578,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 771.2557800000001,
+          "destino_mwh": 771.2557800000001,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Noracid S.A.",
+          "rut_suministrador": "76858530-K",
+          "origen_mwh": 1637.065798,
+          "destino_mwh": 1637.065798,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:be0c827bf0b88671e680a0c3",
+      "mes": "2511",
+      "total_origen_mwh": 4119.133525,
+      "total_destino_mwh": 4119.133525,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Imelsa Energía SpA",
+          "rut_suministrador": "76472262-0",
+          "origen_mwh": 4119.133525,
+          "destino_mwh": 4119.133525,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:0e5bdaf306629df5882ba66c",
+      "mes": "2511",
+      "total_origen_mwh": 2390.696956,
+      "total_destino_mwh": 2390.696956,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Imelsa Energía SpA",
+          "rut_suministrador": "76472262-0",
+          "origen_mwh": 2390.696956,
+          "destino_mwh": 2390.696956,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:44098256b77f56e296845158",
+      "mes": "2511",
+      "total_origen_mwh": 3937.53755,
+      "total_destino_mwh": 3937.53755,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Imelsa Energía SpA",
+          "rut_suministrador": "76472262-0",
+          "origen_mwh": 3937.53755,
+          "destino_mwh": 3937.53755,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:dfb2723fba6c346b9aefbb77",
+      "mes": "2511",
+      "total_origen_mwh": 5321.506971,
+      "total_destino_mwh": 5321.506971,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 5321.506971,
+          "destino_mwh": 5321.506971,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:5279a6ad0ddce72a4bff8fdb",
+      "mes": "2511",
+      "total_origen_mwh": 250.401604,
+      "total_destino_mwh": 250.401604,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Green Power Chile S.A.",
+          "rut_suministrador": "76412562-2",
+          "origen_mwh": 250.401604,
+          "destino_mwh": 250.401604,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:ac8a3b7b688c862ffaba316d",
+      "mes": "2511",
+      "total_origen_mwh": 6693.854494,
+      "total_destino_mwh": 6693.854494,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Acciona Energía Chile Holdings S.A.",
+          "rut_suministrador": "76437712-5",
+          "origen_mwh": 6693.854494,
+          "destino_mwh": 6693.854494,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:c5206f1eef43fd3b619eba18",
+      "mes": "2511",
+      "total_origen_mwh": 22.677641,
+      "total_destino_mwh": 22.677641,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 22.677641,
+          "destino_mwh": 22.677641,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:33979fe902954f9db210b946",
+      "mes": "2511",
+      "total_origen_mwh": 7371.199419,
+      "total_destino_mwh": 7371.199419,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 7371.199419,
+          "destino_mwh": 7371.199419,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:d7cf675b432cd15b887ef367",
+      "mes": "2511",
+      "total_origen_mwh": 1172.114723,
+      "total_destino_mwh": 1172.114723,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 1172.114723,
+          "destino_mwh": 1172.114723,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:e5f72dd6b6b4599aed343200",
+      "mes": "2511",
+      "total_origen_mwh": 66767.384714,
+      "total_destino_mwh": 66767.384714,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "AES Andes S.A.",
+          "rut_suministrador": "94272000-9",
+          "origen_mwh": 66767.384714,
+          "destino_mwh": 66767.384714,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:783fa679555da97327342b54",
+      "mes": "2511",
+      "total_origen_mwh": 7440.654642,
+      "total_destino_mwh": 7440.654642,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 7440.654642,
+          "destino_mwh": 7440.654642,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:e504e9b3fd2f6cb9f1120652",
+      "mes": "2511",
+      "total_origen_mwh": 87374.73273799999,
+      "total_destino_mwh": 87374.73273799999,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 27388.520618000002,
+          "destino_mwh": 27388.520618000002,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 39139.138154,
+          "destino_mwh": 39139.138154,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Tamakaya Energía SpA",
+          "rut_suministrador": "76349223-0",
+          "origen_mwh": 20847.073966,
+          "destino_mwh": 20847.073966,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:453924ae03ef5a7f9d4da328",
+      "mes": "2511",
+      "total_origen_mwh": 22228.828847999997,
+      "total_destino_mwh": 22228.828847999997,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 7014.114542,
+          "destino_mwh": 7014.114542,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 10078.626575999999,
+          "destino_mwh": 10078.626575999999,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Tamakaya Energía SpA",
+          "rut_suministrador": "76349223-0",
+          "origen_mwh": 5136.08773,
+          "destino_mwh": 5136.08773,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:35a45f1ba4bc863e9096a71f",
+      "mes": "2511",
+      "total_origen_mwh": 174.875733,
+      "total_destino_mwh": 174.875733,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "ENAP Refinerías S.A.",
+          "rut_suministrador": "87756500-9",
+          "origen_mwh": 174.875733,
+          "destino_mwh": 174.875733,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:4a288645119f623b3500fa47",
+      "mes": "2511",
+      "total_origen_mwh": 26211.558782,
+      "total_destino_mwh": 26211.558782,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "ENAP Refinerías S.A.",
+          "rut_suministrador": "87756500-9",
+          "origen_mwh": 26211.558782,
+          "destino_mwh": 26211.558782,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:4fd2ed25c3af76f165507aea",
+      "mes": "2511",
+      "total_origen_mwh": 669.700516,
+      "total_destino_mwh": 669.700516,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 669.700516,
+          "destino_mwh": 669.700516,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:7d2de1cce69455e1524d96c2",
+      "mes": "2511",
+      "total_origen_mwh": 60.806591,
+      "total_destino_mwh": 60.806591,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 60.806591,
+          "destino_mwh": 60.806591,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:836ab03695b86adc0d39e3be",
+      "mes": "2511",
+      "total_origen_mwh": 169.36696700000002,
+      "total_destino_mwh": 169.36696700000002,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 169.36696700000002,
+          "destino_mwh": 169.36696700000002,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:1772d0dba6e177c743b3ad1c",
+      "mes": "2511",
+      "total_origen_mwh": 295.740623,
+      "total_destino_mwh": 295.740623,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 295.740623,
+          "destino_mwh": 295.740623,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:f3659db72dd9d66b217d2533",
+      "mes": "2511",
+      "total_origen_mwh": 28305.973251,
+      "total_destino_mwh": 28305.973251,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 28305.973251,
+          "destino_mwh": 28305.973251,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:49e7c0a460438ec9ddfd1c3b",
+      "mes": "2511",
+      "total_origen_mwh": 11411.606819,
+      "total_destino_mwh": 11411.606819,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 8811.115971000001,
+          "destino_mwh": 8811.115971000001,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 2600.4908480000004,
+          "destino_mwh": 2600.4908480000004,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:f5c4b76d7700c3fa4356a409",
+      "mes": "2511",
+      "total_origen_mwh": 23616.749703,
+      "total_destino_mwh": 23616.749703,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 23616.749703,
+          "destino_mwh": 23616.749703,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:c5947f61638822e235d0220e",
+      "mes": "2511",
+      "total_origen_mwh": 127468.14428899999,
+      "total_destino_mwh": 127468.14428899999,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Atacama Solar SpA",
+          "rut_suministrador": "76055134-1",
+          "origen_mwh": 16499.999989,
+          "destino_mwh": 16499.999989,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 12201.712276,
+          "destino_mwh": 12201.712276,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 95700.000013,
+          "destino_mwh": 95700.000013,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Pozo Almonte Solar 2 S.A.",
+          "rut_suministrador": "76055356-5",
+          "origen_mwh": 1730.1271669999999,
+          "destino_mwh": 1730.1271669999999,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Pozo Almonte Solar 3 S.A.",
+          "rut_suministrador": "76055354-9",
+          "origen_mwh": 1336.304844,
+          "destino_mwh": 1336.304844,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:2a8e8514f35601e9924509b9",
+      "mes": "2511",
+      "total_origen_mwh": 3323.37837,
+      "total_destino_mwh": 3323.37837,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 3323.37837,
+          "destino_mwh": 3323.37837,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:ef79d5e8d8141ce8efb0c38a",
+      "mes": "2511",
+      "total_origen_mwh": 4085.8993259999997,
+      "total_destino_mwh": 4085.8993259999997,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 4085.8993259999997,
+          "destino_mwh": 4085.8993259999997,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:c6c519982be6e1352c0833d3",
+      "mes": "2511",
+      "total_origen_mwh": 11446.144359,
+      "total_destino_mwh": 11446.144359,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 11446.144359,
+          "destino_mwh": 11446.144359,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:fb9a82077703eec5add3f3a6",
+      "mes": "2511",
+      "total_origen_mwh": 1833.88843,
+      "total_destino_mwh": 1833.88843,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 1833.88843,
+          "destino_mwh": 1833.88843,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:a25fbb93168cf4f63d8ecee2",
+      "mes": "2511",
+      "total_origen_mwh": 888.829915,
+      "total_destino_mwh": 888.829915,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 888.829915,
+          "destino_mwh": 888.829915,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:cc11be8989f66c7f11de0473",
+      "mes": "2511",
+      "total_origen_mwh": 2148.317846,
+      "total_destino_mwh": 2148.317846,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Norvind S.A.",
+          "rut_suministrador": "76919070-8",
+          "origen_mwh": 2148.317846,
+          "destino_mwh": 2148.317846,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:53e4b98f4831303a34d8e390",
+      "mes": "2511",
+      "total_origen_mwh": 7.169587000000001,
+      "total_destino_mwh": 7.169587000000001,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 7.169587000000001,
+          "destino_mwh": 7.169587000000001,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:a3bd521538581382fe520e35",
+      "mes": "2511",
+      "total_origen_mwh": 1658.5200479999999,
+      "total_destino_mwh": 1658.5200479999999,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "GR Power Chile SpA",
+          "rut_suministrador": "77209283-0",
+          "origen_mwh": 1658.5200479999999,
+          "destino_mwh": 1658.5200479999999,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:a7d03571f9498b742b4e705c",
+      "mes": "2511",
+      "total_origen_mwh": 41.812087,
+      "total_destino_mwh": 41.812087,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 41.812087,
+          "destino_mwh": 41.812087,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:bd3efa4fd614d8635e43e562",
+      "mes": "2511",
+      "total_origen_mwh": 26298.157813,
+      "total_destino_mwh": 26298.157813,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 26298.157813,
+          "destino_mwh": 26298.157813,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:6f971b211a112a0ae84a2b82",
+      "mes": "2511",
+      "total_origen_mwh": 3973.6846140000002,
+      "total_destino_mwh": 3973.6846140000002,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 3973.6846140000002,
+          "destino_mwh": 3973.6846140000002,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:902d670a153353fbd3d7e683",
+      "mes": "2511",
+      "total_origen_mwh": 8277.44951,
+      "total_destino_mwh": 8277.44951,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 8277.44951,
+          "destino_mwh": 8277.44951,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:beba19dc0b48f64dd79f2c29",
+      "mes": "2511",
+      "total_origen_mwh": 6651.720889,
+      "total_destino_mwh": 6651.720889,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "",
+          "rut_suministrador": "76085254-6",
+          "origen_mwh": 6651.720889,
+          "destino_mwh": 6651.720889,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:f208f05b67ec1378c0c49ebe",
+      "mes": "2511",
+      "total_origen_mwh": 3755.463952,
+      "total_destino_mwh": 3755.463952,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "",
+          "rut_suministrador": "76085254-6",
+          "origen_mwh": 3755.463952,
+          "destino_mwh": 3755.463952,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:aee1ebb5367afd194cb38146",
+      "mes": "2511",
+      "total_origen_mwh": 6934.370749,
+      "total_destino_mwh": 6934.370749,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "",
+          "rut_suministrador": "76085254-6",
+          "origen_mwh": 6934.370749,
+          "destino_mwh": 6934.370749,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:a45658cede3dff00d3eb46b7",
+      "mes": "2511",
+      "total_origen_mwh": 6061.885406,
+      "total_destino_mwh": 6061.885406,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "",
+          "rut_suministrador": "76085254-6",
+          "origen_mwh": 6061.885406,
+          "destino_mwh": 6061.885406,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:6edc84689d90565a4b2a8738",
+      "mes": "2511",
+      "total_origen_mwh": 14861.837827,
+      "total_destino_mwh": 14861.837827,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "",
+          "rut_suministrador": "76085254-6",
+          "origen_mwh": 14861.837827,
+          "destino_mwh": 14861.837827,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:2c5b44a7979fb7f097e0c514",
+      "mes": "2511",
+      "total_origen_mwh": 183.9054,
+      "total_destino_mwh": 183.9054,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "",
+          "rut_suministrador": "76085254-6",
+          "origen_mwh": 183.9054,
+          "destino_mwh": 183.9054,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:47ca6022fc14eb6fa21ab03a",
+      "mes": "2511",
+      "total_origen_mwh": 16810.451386,
+      "total_destino_mwh": 16810.451386,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "",
+          "rut_suministrador": "76085254-6",
+          "origen_mwh": 16810.451386,
+          "destino_mwh": 16810.451386,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:d1f671fe43815dbebf8630d2",
+      "mes": "2511",
+      "total_origen_mwh": 2.201074,
+      "total_destino_mwh": 2.201074,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Arauco Bioenergía SpA",
+          "rut_suministrador": "96547510-9",
+          "origen_mwh": 2.201074,
+          "destino_mwh": 2.201074,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:ae1458694aafcd0c65524368",
+      "mes": "2511",
+      "total_origen_mwh": 2665.025624,
+      "total_destino_mwh": 2665.025624,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Arauco Bioenergía SpA",
+          "rut_suministrador": "96547510-9",
+          "origen_mwh": 2665.025624,
+          "destino_mwh": 2665.025624,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:ee71b80b7ef95ef1054106a1",
+      "mes": "2511",
+      "total_origen_mwh": 64.560793,
+      "total_destino_mwh": 64.560793,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Arauco Bioenergía SpA",
+          "rut_suministrador": "96547510-9",
+          "origen_mwh": 64.560793,
+          "destino_mwh": 64.560793,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:3cff9ce2a1d31422b036d09c",
+      "mes": "2511",
+      "total_origen_mwh": 191.297298,
+      "total_destino_mwh": 191.297298,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Arauco Bioenergía SpA",
+          "rut_suministrador": "96547510-9",
+          "origen_mwh": 191.297298,
+          "destino_mwh": 191.297298,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:0adead95f0ba8f20cc4324f6",
+      "mes": "2511",
+      "total_origen_mwh": 3977.137823,
+      "total_destino_mwh": 3977.137823,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Arauco Bioenergía SpA",
+          "rut_suministrador": "96547510-9",
+          "origen_mwh": 3977.137823,
+          "destino_mwh": 3977.137823,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:9a1c540648cf67b1d2eb9fa1",
+      "mes": "2511",
+      "total_origen_mwh": 823.553598,
+      "total_destino_mwh": 823.553598,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 823.553598,
+          "destino_mwh": 823.553598,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:eace0ce004d4612d93c4a41e",
+      "mes": "2511",
+      "total_origen_mwh": 11330.351924,
+      "total_destino_mwh": 11330.351924,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 11330.351924,
+          "destino_mwh": 11330.351924,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:be337721c37a7619caea8a83",
+      "mes": "2511",
+      "total_origen_mwh": 3700.219775,
+      "total_destino_mwh": 3700.219775,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 3700.219775,
+          "destino_mwh": 3700.219775,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:8fa4d68d6056b8b6b5736c23",
+      "mes": "2511",
+      "total_origen_mwh": 78.361661,
+      "total_destino_mwh": 78.361661,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "AES Andes S.A.",
+          "rut_suministrador": "94272000-9",
+          "origen_mwh": 78.361661,
+          "destino_mwh": 78.361661,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:54d7b525af285cacb7f87b30",
+      "mes": "2511",
+      "total_origen_mwh": 789.025401,
+      "total_destino_mwh": 789.025401,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "AES Andes S.A.",
+          "rut_suministrador": "94272000-9",
+          "origen_mwh": 789.025401,
+          "destino_mwh": 789.025401,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:1deefd1d30863d6077b23117",
+      "mes": "2511",
+      "total_origen_mwh": 136.88953400000003,
+      "total_destino_mwh": 136.88953400000003,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Tamakaya Energía SpA",
+          "rut_suministrador": "76349223-0",
+          "origen_mwh": 136.88953400000003,
+          "destino_mwh": 136.88953400000003,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:6e2541e2936b1af57083775e",
+      "mes": "2511",
+      "total_origen_mwh": 1266.1303130000001,
+      "total_destino_mwh": 1266.1303130000001,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 1266.1303130000001,
+          "destino_mwh": 1266.1303130000001,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:bad66a234b2a66dbee9cddea",
+      "mes": "2511",
+      "total_origen_mwh": 21249.289087999998,
+      "total_destino_mwh": 21249.289087999998,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Amanecer Solar SpA",
+          "rut_suministrador": "76273559-8",
+          "origen_mwh": 5487.938480000001,
+          "destino_mwh": 5487.938480000001,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Guacolda Energía SpA",
+          "rut_suministrador": "76418918-3",
+          "origen_mwh": 15761.350607999999,
+          "destino_mwh": 15761.350607999999,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:acd037222ed2c350e338236c",
+      "mes": "2511",
+      "total_origen_mwh": 11651.763409,
+      "total_destino_mwh": 11651.763409,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Amanecer Solar SpA",
+          "rut_suministrador": "76273559-8",
+          "origen_mwh": 2670.970039,
+          "destino_mwh": 2670.970039,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Guacolda Energía SpA",
+          "rut_suministrador": "76418918-3",
+          "origen_mwh": 8980.79337,
+          "destino_mwh": 8980.79337,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:96f017716f7e0037df867109",
+      "mes": "2511",
+      "total_origen_mwh": 6826.3966900000005,
+      "total_destino_mwh": 6826.3966900000005,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Amanecer Solar SpA",
+          "rut_suministrador": "76273559-8",
+          "origen_mwh": 1672.926682,
+          "destino_mwh": 1672.926682,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Guacolda Energía SpA",
+          "rut_suministrador": "76418918-3",
+          "origen_mwh": 5153.470008,
+          "destino_mwh": 5153.470008,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:f6007f8bd024eeb4337ff5d8",
+      "mes": "2511",
+      "total_origen_mwh": 6138.328035,
+      "total_destino_mwh": 6138.328035,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Amanecer Solar SpA",
+          "rut_suministrador": "76273559-8",
+          "origen_mwh": 382.029849,
+          "destino_mwh": 382.029849,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Guacolda Energía SpA",
+          "rut_suministrador": "76418918-3",
+          "origen_mwh": 5756.298186,
+          "destino_mwh": 5756.298186,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:e98f2f417619ddc880991bbf",
+      "mes": "2511",
+      "total_origen_mwh": 5485.1448199999995,
+      "total_destino_mwh": 5485.1448199999995,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Amanecer Solar SpA",
+          "rut_suministrador": "76273559-8",
+          "origen_mwh": 1298.153045,
+          "destino_mwh": 1298.153045,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Guacolda Energía SpA",
+          "rut_suministrador": "76418918-3",
+          "origen_mwh": 4186.9917749999995,
+          "destino_mwh": 4186.9917749999995,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:1ff2a2e56be798a9eb42f897",
+      "mes": "2511",
+      "total_origen_mwh": 16714.415050000003,
+      "total_destino_mwh": 16714.415050000003,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Amanecer Solar SpA",
+          "rut_suministrador": "76273559-8",
+          "origen_mwh": 4162.778,
+          "destino_mwh": 4162.778,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Guacolda Energía SpA",
+          "rut_suministrador": "76418918-3",
+          "origen_mwh": 12551.637050000001,
+          "destino_mwh": 12551.637050000001,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:1b070a577a64f7aacdfb8d72",
+      "mes": "2511",
+      "total_origen_mwh": 8.788488,
+      "total_destino_mwh": 8.788488,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 8.788488,
+          "destino_mwh": 8.788488,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:4a21bae8d219b9ba346efda1",
+      "mes": "2511",
+      "total_origen_mwh": 1918.815459,
+      "total_destino_mwh": 1918.815459,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 1918.815459,
+          "destino_mwh": 1918.815459,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:1b51e3105b5b81ff23c05b15",
+      "mes": "2511",
+      "total_origen_mwh": 8397.086707,
+      "total_destino_mwh": 8397.086707,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 8397.086707,
+          "destino_mwh": 8397.086707,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:0f1f110eccd6267600f66871",
+      "mes": "2511",
+      "total_origen_mwh": 4800.903542,
+      "total_destino_mwh": 4800.903542,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Arauco Bioenergía SpA",
+          "rut_suministrador": "96547510-9",
+          "origen_mwh": 4800.903542,
+          "destino_mwh": 4800.903542,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:905dd2d81c56f229099127a2",
+      "mes": "2511",
+      "total_origen_mwh": 6.195024,
+      "total_destino_mwh": 6.195024,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Arauco Bioenergía SpA",
+          "rut_suministrador": "96547510-9",
+          "origen_mwh": 6.195024,
+          "destino_mwh": 6.195024,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:8fa8050aa4afa479d765854a",
+      "mes": "2511",
+      "total_origen_mwh": 2339.594123,
+      "total_destino_mwh": 2339.594123,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Arauco Bioenergía SpA",
+          "rut_suministrador": "96547510-9",
+          "origen_mwh": 2339.594123,
+          "destino_mwh": 2339.594123,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:bb57ab2fba04265d4fd9b1c3",
+      "mes": "2511",
+      "total_origen_mwh": 4935.456053999999,
+      "total_destino_mwh": 4935.456053999999,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 4935.456053999999,
+          "destino_mwh": 4935.456053999999,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:9b087fb1a6023101a874561b",
+      "mes": "2511",
+      "total_origen_mwh": 9729.120204,
+      "total_destino_mwh": 9729.120204,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Bioenergías Forestales SpA",
+          "rut_suministrador": "76188197-3",
+          "origen_mwh": 9729.120204,
+          "destino_mwh": 9729.120204,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:624173e47460d3f63164d63b",
+      "mes": "2511",
+      "total_origen_mwh": 3586.048518,
+      "total_destino_mwh": 3586.048518,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 3586.048518,
+          "destino_mwh": 3586.048518,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:3df914242f6a341620d07258",
+      "mes": "2511",
+      "total_origen_mwh": 2514.9634300000002,
+      "total_destino_mwh": 2514.9634300000002,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Bioenergías Forestales SpA",
+          "rut_suministrador": "76188197-3",
+          "origen_mwh": 2143.84974,
+          "destino_mwh": 2143.84974,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 371.11369,
+          "destino_mwh": 371.11369,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:2b0748ee81868e0d1f97e1d5",
+      "mes": "2511",
+      "total_origen_mwh": 4610.673649,
+      "total_destino_mwh": 4610.673649,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Energía Pacífico S.A.",
+          "rut_suministrador": "76004531-4",
+          "origen_mwh": 4610.673649,
+          "destino_mwh": 4610.673649,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:c4d0476833b09a75f4ff7bf1",
+      "mes": "2511",
+      "total_origen_mwh": 117425.29551199998,
+      "total_destino_mwh": 117425.29551199998,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "AES Andes S.A.",
+          "rut_suministrador": "94272000-9",
+          "origen_mwh": 117425.29551199998,
+          "destino_mwh": 117425.29551199998,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:a4205d67a4968408329311f0",
+      "mes": "2511",
+      "total_origen_mwh": 4448.634201,
+      "total_destino_mwh": 4448.634201,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "AES Andes S.A.",
+          "rut_suministrador": "94272000-9",
+          "origen_mwh": 4448.634201,
+          "destino_mwh": 4448.634201,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:ab735856ac378d78b0d1d874",
+      "mes": "2511",
+      "total_origen_mwh": 10561.62649,
+      "total_destino_mwh": 10561.62649,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "AES Andes S.A.",
+          "rut_suministrador": "94272000-9",
+          "origen_mwh": 10561.62649,
+          "destino_mwh": 10561.62649,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:c5cccee4aaa9b9baebfe939c",
+      "mes": "2511",
+      "total_origen_mwh": 346.80667800000003,
+      "total_destino_mwh": 346.80667800000003,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Acciona Energía Chile Holdings S.A.",
+          "rut_suministrador": "76437712-5",
+          "origen_mwh": 346.80667800000003,
+          "destino_mwh": 346.80667800000003,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:786bd678ecd8c486c6c02344",
+      "mes": "2511",
+      "total_origen_mwh": 29313.688092,
+      "total_destino_mwh": 29313.688092,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Empresa Eléctrica Pehuenche S.A.",
+          "rut_suministrador": "96504980-0",
+          "origen_mwh": 29313.688092,
+          "destino_mwh": 29313.688092,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:b965b3afca77e5d3b785f53d",
+      "mes": "2511",
+      "total_origen_mwh": 647.651982,
+      "total_destino_mwh": 647.651982,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "AES Andes S.A.",
+          "rut_suministrador": "94272000-9",
+          "origen_mwh": 647.651982,
+          "destino_mwh": 647.651982,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:8b19708a7bc0f74457ddb428",
+      "mes": "2511",
+      "total_origen_mwh": 354.487347,
+      "total_destino_mwh": 354.487347,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 354.487347,
+          "destino_mwh": 354.487347,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:3a8734f241a0bb6fc3cac54c",
+      "mes": "2511",
+      "total_origen_mwh": 57806.429585,
+      "total_destino_mwh": 57806.429585,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 57806.429585,
+          "destino_mwh": 57806.429585,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:f8141271ffd063385c76dde8",
+      "mes": "2511",
+      "total_origen_mwh": 5850.079644,
+      "total_destino_mwh": 5850.079644,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 5850.079644,
+          "destino_mwh": 5850.079644,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:025af07ffe7282849f11abf4",
+      "mes": "2511",
+      "total_origen_mwh": 3919.166249,
+      "total_destino_mwh": 3919.166249,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 3919.166249,
+          "destino_mwh": 3919.166249,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:cd3daacf23fe5b05268c9e45",
+      "mes": "2511",
+      "total_origen_mwh": 28.964779999999998,
+      "total_destino_mwh": 28.964779999999998,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Acierta Energía SpA",
+          "rut_suministrador": "77333033-6",
+          "origen_mwh": 28.964779999999998,
+          "destino_mwh": 28.964779999999998,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:0cc2668c0f5cd25f6a5f061c",
+      "mes": "2511",
+      "total_origen_mwh": 2492.0017009999997,
+      "total_destino_mwh": 2492.0017009999997,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 2492.0017009999997,
+          "destino_mwh": 2492.0017009999997,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:fe7d7de8f523c3b8553b276e",
+      "mes": "2511",
+      "total_origen_mwh": 33147.221693,
+      "total_destino_mwh": 33147.221693,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 9944.166508,
+          "destino_mwh": 9944.166508,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 23203.055184999997,
+          "destino_mwh": 23203.055184999997,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:d499c16e5c99b38f207285e6",
+      "mes": "2511",
+      "total_origen_mwh": 2264.479912,
+      "total_destino_mwh": 2264.479912,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 2264.479912,
+          "destino_mwh": 2264.479912,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:2dc5bec26c012f41de8dfeae",
+      "mes": "2511",
+      "total_origen_mwh": 1578.713449,
+      "total_destino_mwh": 1578.713449,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Atria Energía SpA",
+          "rut_suministrador": "76827288-3",
+          "origen_mwh": 1578.713449,
+          "destino_mwh": 1578.713449,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:5c427b7645034dfd1ce3ad3c",
+      "mes": "2511",
+      "total_origen_mwh": 44.363218,
+      "total_destino_mwh": 44.363218,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 44.363218,
+          "destino_mwh": 44.363218,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:67416d5163e3d1d013f1bfda",
+      "mes": "2511",
+      "total_origen_mwh": 1081.943622,
+      "total_destino_mwh": 1081.943622,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Colbún S.A.",
+          "rut_suministrador": "96505760-9",
+          "origen_mwh": 1081.943622,
+          "destino_mwh": 1081.943622,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:40f9c979c1b33fdc7ada284c",
+      "mes": "2511",
+      "total_origen_mwh": 128060.43698,
+      "total_destino_mwh": 128060.43698,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "AES Andes S.A.",
+          "rut_suministrador": "94272000-9",
+          "origen_mwh": 28740.712675000002,
+          "destino_mwh": 28740.712675000002,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Alto Maipo SpA",
+          "rut_suministrador": "76170761-2",
+          "origen_mwh": 65934.57625499999,
+          "destino_mwh": 65934.57625499999,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Parque Eólico El Arrayán SpA",
+          "rut_suministrador": "76068557-7",
+          "origen_mwh": 4585.622173,
+          "destino_mwh": 4585.622173,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Conejo Solar SpA",
+          "rut_suministrador": "76376829-5",
+          "origen_mwh": 16096.239654,
+          "destino_mwh": 16096.239654,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Javiera SpA",
+          "rut_suministrador": "76376635-7",
+          "origen_mwh": 12703.286223000001,
+          "destino_mwh": 12703.286223000001,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:1c51643f3d7426902c96366a",
+      "mes": "2511",
+      "total_origen_mwh": 4032.072389,
+      "total_destino_mwh": 4032.072389,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "AES Andes S.A.",
+          "rut_suministrador": "94272000-9",
+          "origen_mwh": 570.522093,
+          "destino_mwh": 570.522093,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Parque Eólico El Arrayán SpA",
+          "rut_suministrador": "76068557-7",
+          "origen_mwh": 3461.550296,
+          "destino_mwh": 3461.550296,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:af7c2a1b07027f8cbec9cf97",
+      "mes": "2511",
+      "total_origen_mwh": 3.137574,
+      "total_destino_mwh": 3.137574,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 3.137574,
+          "destino_mwh": 3.137574,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:05fe877f5962d439a059c85a",
+      "mes": "2511",
+      "total_origen_mwh": 2727.6321150000003,
+      "total_destino_mwh": 2727.6321150000003,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Neomas SpA",
+          "rut_suministrador": "76112774-8",
+          "origen_mwh": 2727.6321150000003,
+          "destino_mwh": 2727.6321150000003,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:a3bf749a3ec2c26cc47b6cd7",
+      "mes": "2511",
+      "total_origen_mwh": 2020.972604,
+      "total_destino_mwh": 2020.972604,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 1616.7780830000002,
+          "destino_mwh": 1616.7780830000002,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Neomas SpA",
+          "rut_suministrador": "76112774-8",
+          "origen_mwh": 404.194521,
+          "destino_mwh": 404.194521,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:69803c58f64bc880869fbbc6",
+      "mes": "2511",
+      "total_origen_mwh": 10303.044724,
+      "total_destino_mwh": 10303.044724,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 9000.0,
+          "destino_mwh": 9000.0,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "Neomas SpA",
+          "rut_suministrador": "76112774-8",
+          "origen_mwh": 1303.0447239999999,
+          "destino_mwh": 1303.0447239999999,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:f6bb6d943b0b3da51791274e",
+      "mes": "2511",
+      "total_origen_mwh": 15157.379933,
+      "total_destino_mwh": 15157.379933,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 15157.379933,
+          "destino_mwh": 15157.379933,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:d9c663317a67462ac60439fa",
+      "mes": "2511",
+      "total_origen_mwh": 7.713842,
+      "total_destino_mwh": 7.713842,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 7.713842,
+          "destino_mwh": 7.713842,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:ab5132b0a6d0c72c70f63b06",
+      "mes": "2511",
+      "total_origen_mwh": 92.686234,
+      "total_destino_mwh": 92.686234,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 92.686234,
+          "destino_mwh": 92.686234,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:9b7a118b52a00a4879879828",
+      "mes": "2511",
+      "total_origen_mwh": 26036.99733,
+      "total_destino_mwh": 26036.99733,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Arauco Bioenergía SpA",
+          "rut_suministrador": "96547510-9",
+          "origen_mwh": 23282.620329999998,
+          "destino_mwh": 23282.620329999998,
+          "conserva": true
+        },
+        {
+          "rz_soc_suministrador": "IEH Solar Chile SpA",
+          "rut_suministrador": "76775253-9",
+          "origen_mwh": 2754.377,
+          "destino_mwh": 2754.377,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:9c460c29aedfd52c26eca9b3",
+      "mes": "2511",
+      "total_origen_mwh": 89605.84003400001,
+      "total_destino_mwh": 89605.84003400001,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 89605.84003400001,
+          "destino_mwh": 89605.84003400001,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:ea30734e92ec11cee4621d6a",
+      "mes": "2511",
+      "total_origen_mwh": 1757.925402,
+      "total_destino_mwh": 1757.925402,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 1757.925402,
+          "destino_mwh": 1757.925402,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:8c462595f8c14b582396d5ad",
+      "mes": "2511",
+      "total_origen_mwh": 2036.615982,
+      "total_destino_mwh": 2036.615982,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Enel Generación Chile S.A.",
+          "rut_suministrador": "91081000-6",
+          "origen_mwh": 2036.615982,
+          "destino_mwh": 2036.615982,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:511535d2b3912b71bb755b6e",
+      "mes": "2511",
+      "total_origen_mwh": 1687.245993,
+      "total_destino_mwh": 1687.245993,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Engie Energía Chile S.A.",
+          "rut_suministrador": "88006900-4",
+          "origen_mwh": 1687.245993,
+          "destino_mwh": 1687.245993,
+          "conserva": true
+        }
+      ]
+    },
+    {
+      "id_grupo_consulta": "CONSULTA:4a757c37e0c002b761d9ac83",
+      "mes": "2511",
+      "total_origen_mwh": 5723.30795,
+      "total_destino_mwh": 5723.30795,
+      "conserva": true,
+      "por_suministrador": [
+        {
+          "rz_soc_suministrador": "Safira Energía Chile SpA",
+          "rut_suministrador": "76832212-0",
+          "origen_mwh": 5723.30795,
+          "destino_mwh": 5723.30795,
+          "conserva": true
+        }
+      ]
+    }
+  ]
+}

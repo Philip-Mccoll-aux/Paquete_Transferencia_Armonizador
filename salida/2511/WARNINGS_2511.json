@@ -1,0 +1,170 @@
+[
+  {
+    "tipo": "M_SIN_ID_INFOTECNICA_NUMERICO",
+    "id_grupo_consulta": "CONSULTA:f3f00835f06fde83738a5e14",
+    "id_barra_infotecnica_m": null,
+    "detalle": "ID Infotécnica no numérico; el nombre de M puede seguir siendo válido según el contrato real del cargador."
+  },
+  {
+    "tipo": "GRUPO_MES_BLOQUEADO",
+    "id_grupo_consulta": "CONSULTA:f3f00835f06fde83738a5e14",
+    "mes": "2511",
+    "motivos": [
+      "APTO_COMPOSICION=0",
+      "M_NO_RESUELTO:REPARTO_PC_RESUELTO",
+      "EFE_REGLA_ESPECIAL_AISLADA_V1",
+      "IDENTIDAD_M_O_CLIENTE_INCOMPLETA",
+      "FILA_DE_COMPOSICION_NO_APTA"
+    ]
+  },
+  {
+    "tipo": "M_SIN_ID_INFOTECNICA_NUMERICO",
+    "id_grupo_consulta": "CONSULTA:2474f09eab43a8bb9d555829",
+    "id_barra_infotecnica_m": "S/I",
+    "detalle": "ID Infotécnica no numérico; el nombre de M puede seguir siendo válido según el contrato real del cargador."
+  },
+  {
+    "tipo": "M_SIN_ID_INFOTECNICA_NUMERICO",
+    "id_grupo_consulta": "CONSULTA:805ab350bcb4737622a406a1",
+    "id_barra_infotecnica_m": "S/I",
+    "detalle": "ID Infotécnica no numérico; el nombre de M puede seguir siendo válido según el contrato real del cargador."
+  },
+  {
+    "tipo": "M_SIN_ID_INFOTECNICA_NUMERICO",
+    "id_grupo_consulta": "CONSULTA:b104b4b0254872b67006aea9",
+    "id_barra_infotecnica_m": "S/I",
+    "detalle": "ID Infotécnica no numérico; el nombre de M puede seguir siendo válido según el contrato real del cargador."
+  },
+  {
+    "tipo": "M_SIN_ID_INFOTECNICA_NUMERICO",
+    "id_grupo_consulta": "CONSULTA:feb72d8ef85705f6699404d7",
+    "id_barra_infotecnica_m": "S/I",
+    "detalle": "ID Infotécnica no numérico; el nombre de M puede seguir siendo válido según el contrato real del cargador."
+  },
+  {
+    "tipo": "M_SIN_ID_INFOTECNICA_NUMERICO",
+    "id_grupo_consulta": "CONSULTA:510a4a9b535c8ab882f54ef9",
+    "id_barra_infotecnica_m": "S/I",
+    "detalle": "ID Infotécnica no numérico; el nombre de M puede seguir siendo válido según el contrato real del cargador."
+  },
+  {
+    "tipo": "M_SIN_ID_INFOTECNICA_NUMERICO",
+    "id_grupo_consulta": "CONSULTA:ca01385215ec66ca2a36e339",
+    "id_barra_infotecnica_m": "S/I",
+    "detalle": "ID Infotécnica no numérico; el nombre de M puede seguir siendo válido según el contrato real del cargador."
+  },
+  {
+    "tipo": "M_SIN_ID_INFOTECNICA_NUMERICO",
+    "id_grupo_consulta": "CONSULTA:b310ceb4934bdc1527f204b1",
+    "id_barra_infotecnica_m": "S/I",
+    "detalle": "ID Infotécnica no numérico; el nombre de M puede seguir siendo válido según el contrato real del cargador."
+  },
+  {
+    "tipo": "M_SIN_ID_INFOTECNICA_NUMERICO",
+    "id_grupo_consulta": "CONSULTA:be0c827bf0b88671e680a0c3",
+    "id_barra_infotecnica_m": "S/I",
+    "detalle": "ID Infotécnica no numérico; el nombre de M puede seguir siendo válido según el contrato real del cargador."
+  },
+  {
+    "tipo": "M_SIN_ID_INFOTECNICA_NUMERICO",
+    "id_grupo_consulta": "CONSULTA:0e5bdaf306629df5882ba66c",
+    "id_barra_infotecnica_m": "S/I",
+    "detalle": "ID Infotécnica no numérico; el nombre de M puede seguir siendo válido según el contrato real del cargador."
+  },
+  {
+    "tipo": "M_SIN_ID_INFOTECNICA_NUMERICO",
+    "id_grupo_consulta": "CONSULTA:d7cf675b432cd15b887ef367",
+    "id_barra_infotecnica_m": "S/I",
+    "detalle": "ID Infotécnica no numérico; el nombre de M puede seguir siendo válido según el contrato real del cargador."
+  },
+  {
+    "tipo": "M_SIN_ID_INFOTECNICA_NUMERICO",
+    "id_grupo_consulta": "CONSULTA:836ab03695b86adc0d39e3be",
+    "id_barra_infotecnica_m": "S/I",
+    "detalle": "ID Infotécnica no numérico; el nombre de M puede seguir siendo válido según el contrato real del cargador."
+  },
+  {
+    "tipo": "M_SIN_ID_INFOTECNICA_NUMERICO",
+    "id_grupo_consulta": "CONSULTA:a25fbb93168cf4f63d8ecee2",
+    "id_barra_infotecnica_m": "S/I",
+    "detalle": "ID Infotécnica no numérico; el nombre de M puede seguir siendo válido según el contrato real del cargador."
+  },
+  {
+    "tipo": "M_SIN_ID_INFOTECNICA_NUMERICO",
+    "id_grupo_consulta": "CONSULTA:902d670a153353fbd3d7e683",
+    "id_barra_infotecnica_m": "S/I",
+    "detalle": "ID Infotécnica no numérico; el nombre de M puede seguir siendo válido según el contrato real del cargador."
+  },
+  {
+    "tipo": "M_SIN_ID_INFOTECNICA_NUMERICO",
+    "id_grupo_consulta": "CONSULTA:beba19dc0b48f64dd79f2c29",
+    "id_barra_infotecnica_m": "S/I",
+    "detalle": "ID Infotécnica no numérico; el nombre de M puede seguir siendo válido según el contrato real del cargador."
+  },
+  {
+    "tipo": "M_SIN_ID_INFOTECNICA_NUMERICO",
+    "id_grupo_consulta": "CONSULTA:6edc84689d90565a4b2a8738",
+    "id_barra_infotecnica_m": "S/I",
+    "detalle": "ID Infotécnica no numérico; el nombre de M puede seguir siendo válido según el contrato real del cargador."
+  },
+  {
+    "tipo": "M_SIN_ID_INFOTECNICA_NUMERICO",
+    "id_grupo_consulta": "CONSULTA:96f017716f7e0037df867109",
+    "id_barra_infotecnica_m": "S/I",
+    "detalle": "ID Infotécnica no numérico; el nombre de M puede seguir siendo válido según el contrato real del cargador."
+  },
+  {
+    "tipo": "M_SIN_ID_INFOTECNICA_NUMERICO",
+    "id_grupo_consulta": "CONSULTA:67416d5163e3d1d013f1bfda",
+    "id_barra_infotecnica_m": "S/I",
+    "detalle": "ID Infotécnica no numérico; el nombre de M puede seguir siendo válido según el contrato real del cargador."
+  },
+  {
+    "tipo": "M_SIN_ID_INFOTECNICA_NUMERICO",
+    "id_grupo_consulta": "CONSULTA:a3bf749a3ec2c26cc47b6cd7",
+    "id_barra_infotecnica_m": "S/I",
+    "detalle": "ID Infotécnica no numérico; el nombre de M puede seguir siendo válido según el contrato real del cargador."
+  },
+  {
+    "tipo": "BARRAF_ORIGEN_AUSENTE_EN_ENS",
+    "id_grupo_consulta": "CONSULTA:d5cbb681f8c83d70dc5bb872",
+    "mes": "2511",
+    "rut_integracion": "61704000-K",
+    "barraf_origen": "CHUQUICAMATA__100"
+  },
+  {
+    "tipo": "BARRAF_ORIGEN_AUSENTE_EN_ENS",
+    "id_grupo_consulta": "CONSULTA:f9fe8980ef061edaee3ccbe0",
+    "mes": "2511",
+    "rut_integracion": "61808000-5",
+    "barraf_origen": "QUELTEHUES____110"
+  },
+  {
+    "tipo": "BARRAF_ORIGEN_AUSENTE_EN_ENS",
+    "id_grupo_consulta": "CONSULTA:83a1164ef28c953d4df90bd6",
+    "mes": "2511",
+    "rut_integracion": "92580000-7",
+    "barraf_origen": "TOFF.DOLORES__023"
+  },
+  {
+    "tipo": "BARRAF_ORIGEN_AUSENTE_EN_ENS",
+    "id_grupo_consulta": "CONSULTA:09dcf36e78e98b10a7711177",
+    "mes": "2511",
+    "rut_integracion": "93007000-9",
+    "barraf_origen": "URIBE_________023"
+  },
+  {
+    "tipo": "BARRAF_ORIGEN_AUSENTE_EN_ENS",
+    "id_grupo_consulta": "CONSULTA:a582690857e36316c7c08d12",
+    "mes": "2511",
+    "rut_integracion": "95304000-K",
+    "barraf_origen": "MININCO_______220"
+  },
+  {
+    "tipo": "BARRAF_ORIGEN_AUSENTE_EN_ENS",
+    "id_grupo_consulta": "CONSULTA:2e433d724326ba76266656c8",
+    "mes": "2511",
+    "rut_integracion": "96532330-9",
+    "barraf_origen": "MININCO_______220"
+  }
+]
