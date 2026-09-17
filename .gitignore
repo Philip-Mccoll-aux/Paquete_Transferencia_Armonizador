@@ -3,3 +3,7 @@ __pycache__/
 .pytest_cache/
 .venv/
 *.egg-info/
+
+# Archivos de bloqueo temporales que crea Excel/Office al abrir un xlsx.
+~$*.xlsx
+~$*.xls
