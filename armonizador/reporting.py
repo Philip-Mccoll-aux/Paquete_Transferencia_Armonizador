@@ -9,6 +9,7 @@ from datetime import datetime, timezone
 from typing import Any
 
 from . import __version__
+from .contrato import ContratoLT
 from .io_excel import escribir_ens
 from .motor import ResultadoArmonizacion
 from .qa import ReporteQAGlobal
@@ -46,6 +47,68 @@ def escribir_traza_csv(ruta: str, resultado: ResultadoArmonizacion) -> None:
             writer.writerow([getattr(entrada, campo) for campo in campos])
 
 
+def escribir_listado_grupos(ruta: str, contrato: ContratoLT, resultado: ResultadoArmonizacion) -> None:
+    """Listado legible de TODOS los grupos de consulta del mes: cuáles
+
+    quedaron aptos y se armonizaron, cuáles se omitieron en tiempo de
+    ejecución (BarraF ausente del ENS) y cuáles quedaron bloqueados por el
+    contrato, con el motivo. Es la respuesta a "qué grupos fueron aptos
+    para armonización" sin tener que cruzar QA_<mes>.json y
+    WARNINGS_<mes>.json a mano.
+    """
+    import csv
+
+    mwh_por_grupo = {g.id_grupo_consulta: g.total_destino_mwh for g in resultado.qa_grupos}
+    ids_omitidos_en_ejecucion = {
+        a["id_grupo_consulta"] for a in resultado.advertencias if a.get("tipo") == "BARRAF_ORIGEN_AUSENTE_EN_ENS"
+    }
+
+    campos = [
+        "id_grupo_consulta",
+        "cliente",
+        "rut_integracion",
+        "barraf_origenes",
+        "barraf_m",
+        "barra_infotecnica_m",
+        "id_barra_infotecnica_m",
+        "discontinuidad_barraf",
+        "modo_consulta",
+        "estado",
+        "motivos_bloqueo",
+        "mwh_armonizado",
+    ]
+    with open(ruta, "w", newline="", encoding="utf-8") as fh:
+        writer = csv.writer(fh)
+        writer.writerow(campos)
+        for receta in sorted(contrato.recetas.values(), key=lambda r: (r.cliente, r.id_grupo_consulta)):
+            if receta.bloqueada:
+                estado = "BLOQUEADO"
+            elif receta.id_grupo_consulta in ids_omitidos_en_ejecucion:
+                estado = "OMITIDO_BARRAF_AUSENTE_EN_ENS"
+            else:
+                estado = "APTO_ARMONIZADO"
+            # Discontinuidad: la(s) BarraF de origen del mes no coinciden
+            # con la BarraF vigente de M (cambió de barra física/nominal,
+            # o hay más de una fuente conviviendo bajo el mismo M).
+            discontinuidad = bool(receta.origenes) and receta.origenes != {receta.barraf_m}
+            writer.writerow(
+                [
+                    receta.id_grupo_consulta,
+                    receta.cliente,
+                    receta.rut_integracion,
+                    "; ".join(sorted(receta.origenes)),
+                    receta.barraf_m,
+                    receta.barra_infotecnica_m,
+                    receta.id_barra_infotecnica_m,
+                    discontinuidad,
+                    receta.modo_consulta,
+                    estado,
+                    "; ".join(receta.motivos_bloqueo),
+                    mwh_por_grupo.get(receta.id_grupo_consulta, ""),
+                ]
+            )
+
+
 def _reporte_qa_dict(resultado: ResultadoArmonizacion, qa_global: ReporteQAGlobal) -> dict[str, Any]:
     return {
         "global": dataclasses.asdict(qa_global),
@@ -60,6 +123,7 @@ def escribir_salidas(
     ruta_contrato: str,
     resultado: ResultadoArmonizacion,
     qa_global: ReporteQAGlobal,
+    contrato: ContratoLT | None = None,
     parametros: dict[str, Any] | None = None,
 ) -> dict[str, str]:
     os.makedirs(directorio_salida, exist_ok=True)
@@ -69,9 +133,12 @@ def escribir_salidas(
     ruta_qa = os.path.join(directorio_salida, f"QA_{mes}.json")
     ruta_warnings = os.path.join(directorio_salida, f"WARNINGS_{mes}.json")
     ruta_manifiesto = os.path.join(directorio_salida, f"MANIFIESTO_{mes}.json")
+    ruta_grupos = os.path.join(directorio_salida, f"GRUPOS_{mes}.csv")
 
     escribir_ens(ruta_ens_salida, resultado.encabezados, resultado.filas)
     escribir_traza_csv(ruta_traza, resultado)
+    if contrato is not None:
+        escribir_listado_grupos(ruta_grupos, contrato, resultado)
 
     with open(ruta_qa, "w", encoding="utf-8") as fh:
         json.dump(_reporte_qa_dict(resultado, qa_global), fh, ensure_ascii=False, indent=2)
@@ -93,6 +160,7 @@ def escribir_salidas(
             "traza": {"ruta": ruta_traza, "sha256": None},
             "qa": {"ruta": ruta_qa, "sha256": None},
             "warnings": {"ruta": ruta_warnings, "sha256": None},
+            "grupos": {"ruta": ruta_grupos, "sha256": None} if contrato is not None else None,
         },
         "resumen": {
             "grupos_procesados": resultado.grupos_procesados,
@@ -109,14 +177,19 @@ def escribir_salidas(
     manifiesto["salidas"]["traza"]["sha256"] = _sha256(ruta_traza)
     manifiesto["salidas"]["qa"]["sha256"] = _sha256(ruta_qa)
     manifiesto["salidas"]["warnings"]["sha256"] = _sha256(ruta_warnings)
+    if contrato is not None:
+        manifiesto["salidas"]["grupos"]["sha256"] = _sha256(ruta_grupos)
 
     with open(ruta_manifiesto, "w", encoding="utf-8") as fh:
         json.dump(manifiesto, fh, ensure_ascii=False, indent=2)
 
-    return {
+    salidas = {
         "ens_armonizado": ruta_ens_salida,
         "traza": ruta_traza,
         "qa": ruta_qa,
         "warnings": ruta_warnings,
         "manifiesto": ruta_manifiesto,
     }
+    if contrato is not None:
+        salidas["grupos"] = ruta_grupos
+    return salidas

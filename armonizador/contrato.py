@@ -31,6 +31,7 @@ class RecetaGrupoMes:
     barra_infotecnica_m: str
     id_barra_infotecnica_m: Any
     modo_consulta: str
+    cliente: str = ""
     version_receta: str = ""
     origenes: set[str] = field(default_factory=set)
     factor_por_origen: dict[str, float] = field(default_factory=dict)
@@ -117,6 +118,7 @@ def cargar_contrato(ruta_resultado_experto: str, mes: str) -> ContratoLT:
             barra_infotecnica_m=primera.get(col.C_BARRA_INFOTECNICA_M),
             id_barra_infotecnica_m=primera.get(col.C_ID_BARRA_INFOTECNICA_M),
             modo_consulta=_a_texto(primera.get(col.C_MODO_CONSULTA)),
+            cliente=_a_texto(primera.get(col.C_CLIENTE)),
             version_receta=_a_texto(primera.get(col.C_VERSION_RECETA)),
         )
         recetas[id_grupo] = receta
@@ -205,7 +207,7 @@ def cargar_contrato(ruta_resultado_experto: str, mes: str) -> ContratoLT:
 
     for clave, grupos in reclamos.items():
         if len(grupos) > 1:
-            for id_grupo in grupos:
+            for id_grupo in sorted(grupos):
                 recetas[id_grupo].bloquear(f"CONFLICTO_MAPEO_ORIGEN:{clave[0]}|{clave[1]}")
                 advertencias.append(
                     {
